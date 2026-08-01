@@ -1,9 +1,9 @@
-# plan-1 — Governance & Equity Framework: Full Design and Rationale
+# plan-2 — Governance & Equity Framework: Full Design and Rationale
 
 **Client:** [Company], LLC — Massachusetts, ~1 year old, 5 founders, ~10 employees, all currently unpaid
-**Companion documents:** `plan-1-one-pager.md` (summary) · `plan-1-operating-agreement.md` (business-terms draft) · `plan-1-references.md` (annotated bibliography with evidence-strength ratings)
+**Companion documents:** `plan-2-one-pager.md` (summary) · `plan-2-operating-agreement.md` (business-terms draft) · `plan-2-references.md` (annotated bibliography with evidence-strength ratings)
 
-**Sourcing note.** Every substantive factual claim below carries an inline link. Because this workspace's network policy blocks direct page loads, each URL was verified through live search-index results (URL + title + content excerpt matching the claim), not by fetching the page — `plan-1-references.md` states this per source. Where evidence is thin, disputed, or merely practitioner opinion, the text says so.
+**Sourcing note.** Every substantive factual claim below carries an inline link. Because this workspace's network policy blocks direct page loads, each URL was verified through live search-index results (URL + title + content excerpt matching the claim), not by fetching the page — `plan-2-references.md` states this per source. Where evidence is thin, disputed, or merely practitioner opinion, the text says so.
 
 ---
 
@@ -271,5 +271,5 @@ The design's answer, in one line: **inactive founders keep every unit they earne
 4. **Co-CEO evidence is mixed** (§4.4): public-company samples mildly favorable under strict conditions; startup practitioner consensus strongly against. We chose a single CEO and show both sides.
 5. **The 65% "people problems" failure statistic is book-level, not journal-level** — cited only as such.
 6. **Calibration constants are judgment:** the 2×/4× multipliers, the 15% vision cap, the 400-hour quarterly threshold, the 0.8–1.2 quality band, 66⅔% supermajority, and the 65/25/2/8 block sizes have no empirical literature behind their precise values; each is locked against casual drift (supermajority to amend) and listed as a bracketed decision for the founders and counsel.
-7. **Verification limitation:** all URLs search-verified rather than fetch-verified (network policy); per-source notes in `plan-1-references.md`.
-8. **Isolation compliance:** no other team's branch or files were read, checked out, diffed, or browsed at any point; work occurred exclusively on orphan branch `plan-1`.
+7. **Verification limitation:** all URLs search-verified rather than fetch-verified (network policy); per-source notes in `plan-2-references.md`.
+8. **Isolation compliance:** no other team's branch or files were read, checked out, diffed, or browsed at any point; work occurred exclusively on orphan branch `plan-2`.

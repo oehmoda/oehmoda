@@ -1,7 +1,7 @@
-# plan-1 — Amended & Restated Operating Agreement (Business-Terms Draft)
+# plan-2 — Amended & Restated Operating Agreement (Business-Terms Draft)
 
 **Company:** [Company Name], LLC, a Massachusetts limited liability company (the "Company")
-**Status of this document:** This is a *business-terms draft* prepared for counsel. It encodes the founders' agreed framework (see `plan-1-design.md` for rationale). It is **not** a legal document. Counsel should (a) conform it to M.G.L. c. 156C, (b) resolve every bracketed item `[⚖ ...]`, (c) add statutory boilerplate (formation, registered agent, indemnification mechanics, tax boilerplate, partnership-audit-rules provisions), and (d) review the flagged legal-risk items in `plan-1-design.md` §10 (especially Massachusetts Wage Act exposure and the retroactive-grant tax analysis) **before** signature.
+**Status of this document:** This is a *business-terms draft* prepared for counsel. It encodes the founders' agreed framework (see `plan-2-design.md` for rationale). It is **not** a legal document. Counsel should (a) conform it to M.G.L. c. 156C, (b) resolve every bracketed item `[⚖ ...]`, (c) add statutory boilerplate (formation, registered agent, indemnification mechanics, tax boilerplate, partnership-audit-rules provisions), and (d) review the flagged legal-risk items in `plan-2-design.md` §10 (especially Massachusetts Wage Act exposure and the retroactive-grant tax analysis) **before** signature.
 
 Defined terms are capitalized and gathered in Article XV.
 
@@ -108,7 +108,7 @@ All classes are economically identical (same per-Unit distribution and liquidati
 
 ## Article VI — The Contribution Ledger System (Class C Units)
 
-> The complete formulas, worked example, and rubric are in `plan-1-design.md` §5; this Article encodes the operative terms.
+> The complete formulas, worked example, and rubric are in `plan-2-design.md` §5; this Article encodes the operative terms.
 
 6.1 **Single system, identical terms.** All Class C Units — 65% of the Company, plus any Units forfeited into the pool — are allocated **exclusively** through this Article. Founders and employees participate on **identical terms**: same Rate Card, same multipliers, same verification, same caps. No person receives a premium rate by virtue of founder status, title, or seniority of tenure.
 
@@ -244,7 +244,7 @@ Standard events (Supermajority Vote; judicial dissolution; sale). Liquidation wa
 ---
 
 ## Schedule A — Initial Rate Card `[to be adopted at first Board meeting; methodology fixed in §6.3]`
-## Schedule B — Quality-Factor Rubric `[from plan-1-design.md §5.4]`
-## Schedule C — Year-1 Retrospective Audit Procedures & Evidence Standards `[from plan-1-design.md §5.6]`
+## Schedule B — Quality-Factor Rubric `[from plan-2-design.md §5.4]`
+## Schedule C — Year-1 Retrospective Audit Procedures & Evidence Standards `[from plan-2-design.md §5.6]`
 ## Schedule D — Form of Advisor Agreement (including the [Professor] terms, Article VII)
 ## Schedule E — Form of Confidentiality & IP Assignment Agreement

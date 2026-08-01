@@ -1,4 +1,4 @@
-# plan-1 — Annotated Bibliography & Evidence-Strength Ratings
+# plan-2 — Annotated Bibliography & Evidence-Strength Ratings
 
 **Verification method — read this first.** This workspace's network egress policy blocks direct page loads (every HTTPS CONNECT to an external host returns a proxy policy-denial 403, confirmed at the proxy status endpoint). Every URL below was therefore verified via **live web-search index results** — the URL was returned by a current search engine together with a title and content excerpt matching the claim attributed to it — rather than by fetching the page. No URL was cited from memory; none is fabricated; each was surfaced live during this engagement. Where a *number* came from a secondary source summarizing primary data, the entry says so. Counsel/founders should spot-check primary pages before relying on any single figure.
 

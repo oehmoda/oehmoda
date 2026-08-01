@@ -1,6 +1,6 @@
-# plan-1 — One-Pager: What the Evidence Says, and What We Built
+# plan-2 — One-Pager: What the Evidence Says, and What We Built
 
-**For:** the five founders of [Company], LLC (Massachusetts) · **Prepared:** August 2026 · **Full design:** `plan-1-design.md` · **Draft terms:** `plan-1-operating-agreement.md` · **Sources & evidence ratings:** `plan-1-references.md`
+**For:** the five founders of [Company], LLC (Massachusetts) · **Prepared:** August 2026 · **Full design:** `plan-2-design.md` · **Draft terms:** `plan-2-operating-agreement.md` · **Sources & evidence ratings:** `plan-2-references.md`
 
 ---
 
@@ -26,7 +26,7 @@
 
 ---
 
-## The framework we designed from this evidence (details in `plan-1-design.md`)
+## The framework we designed from this evidence (details in `plan-2-design.md`)
 
 - **Cap table (10M units):** 25% founder set-asides (5 × 5%, earned quarterly, use-it-or-lose-it, forfeitures flow back to the pool) · 65% Contribution Pool allocated by a points ledger on identical terms for founders and employees · 2% advisor pool (professor offered 1.0% on a 24-month advisory agreement) · 8% unissued buffer.
 - **The ledger:** Points = verified hours × published market rate for the *function performed* (coding/management/vision each priced off a Board-adopted Rate Card) × 2.0 risk multiplier while unpaid × 0.8–1.2 quality factor; cash counts at 4×. Year 1 is settled once, retroactively, by an evidence-based audit on the same formulas. Shares of the pool = your points ÷ all points; the ledger freezes at the first financing.
