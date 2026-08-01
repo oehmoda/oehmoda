@@ -15,6 +15,15 @@ Slices earned = Σ over role-buckets [ (market salary for bucket − actual cash
 
 Your merit-pool share at any time = your cumulative slices ÷ everyone's cumulative slices. Multipliers (2x non-cash, 4x cash) per [Moyer, *Slicing Pie*](https://slicingpie.com/the-magic-of-mutipliers/). Someone paid at or above market accrues zero time slices — nothing at risk.
 
+### 1b. What the market rate is — and is not
+
+The market rate is a **measuring stick, never a debt**. It prices what each person's work *would have cost* on the open market, so that hours of different kinds of work and cash out of pocket can be counted on one scale as **investment at risk**. Working unpaid at an $82.50/hr market rate means *investing* $82.50 of forgone salary per hour (doubled for risk), the same way a cash investor invests dollars.
+
+- **Slices are never owed as money.** They convert to percentage ownership at the freeze; only the *ratios* between people's totals survive — the dollar figures vanish. If the company is worth nothing, slices are worth nothing. No one can invoice the company for logged hours.
+- **These are not deferred salaries.** When the company later pays salaries, the paycheck does not "repay" slices — it only shrinks the gap being invested going forward; at full market pay, accrual stops entirely.
+- **The one exception is actual cash:** documented out-of-pocket cash is recoverable at face value on separation ([Plan 1 §11.5](plan-1-operating-agreement.md)) — money that physically left a pocket differs from salary forgone. Time never converts back to money; it only ever becomes ownership.
+- **Counsel flag — unpaid workers under MA law:** a team of unpaid workers raises Massachusetts Wage Act and minimum-wage exposure (treble damages; personal officer liability), particularly for the ~10 non-founder employees. Counsel must structure who is a member/partner vs. employee, and paper that equity participation is not wages and that no wages are deferred or owed. This interacts with the profits-interest/K-1 question ([Plan 1 Art. XV](plan-1-operating-agreement.md)) and must be resolved before signing.
+
 ## 2. Pricing the work, not the worker
 
 Everyone may be a software engineer by background; slices are earned at the rate of the **work actually performed**, in three buckets:

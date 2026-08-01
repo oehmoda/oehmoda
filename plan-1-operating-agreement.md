@@ -242,5 +242,6 @@ Governing law: Massachusetts. Disputes not resolved under Article XII: binding a
 7. Noncompete scope/duration (subject to counsel's MA-law review).
 8. CEO-removal vote: whether the affected CEO's own units are excluded from the [75]% Supermajority computation on their removal (recommended — mirrors the for-cause expulsion pattern of votes among the *other* Members).
 9. Formalization of the academic advisor's promised share: fixed Class P advisor grant vs. merit-pool participation vs. the recommended hybrid ([merit formula §6b](merit-formula-and-rate-table.md)), plus the university-IP/COI clearances flagged there — required before signing.
+10. **Counsel: unpaid-worker exposure.** With the entire team currently unpaid, counsel must address MA Wage Act / minimum-wage risk for non-member workers, structure member/partner vs. employee status accordingly, and paper that merit-pool participation is not wages and no compensation is deferred or owed ([merit formula §1b](merit-formula-and-rate-table.md)).
 
 *Full bibliography: [`references.md`](references.md). This draft encodes Plan 1 — the design as agreed through this session; competing findings from parallel research sessions should be reconciled against the cited sources before counsel begins drafting.*
