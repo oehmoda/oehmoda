@@ -41,6 +41,7 @@ Three rules make this investor-clean:
 | Engineering management | $185,000 | $92.50 |
 | Product / business strategy | $170,000 | $85 |
 | CEO bucket (fundraising, sales leadership, external) | $195,000 | $97.50 |
+| Chief Scientist / ML advisory (benchmark: senior ML research & academic consulting market) | $300,000–$350,000 | $150–175 |
 
 Deliberate properties: the spread between the lowest and highest rate is **1.5x, not 5x** — a heavy-contributing engineer is never structurally dominated by someone with a leadership label; sustained volume of contribution, not rate, is what moves the needle. Seniority within a bucket is assigned by the board against the benchmark's leveling definitions, once, at ratification (revisable prospectively at annual rate refresh).
 
@@ -82,6 +83,16 @@ Note what the numbers show: the CEO does *not* dominate (A ≈ B — the title b
 1. **Versus subjective/negotiated splits:** every number traces to a benchmark, a log, or a bank record — diligence is a spreadsheet review, not depositions. Perceived procedural justice is also what keeps the team stable en route ([Breugst et al. 2015](https://ideas.repec.org/a/eee/jbvent/v30y2015i1p66-94.html)).
 2. **Versus output/OKR-gated equity:** metric-gated equity invites gaming and sandbagging; input-priced equity with performance governing *role retention* is the cleaner separation ([Doerr](https://www.betterworks.com/magazine/doerr-reveals-his-company-management-secrets-in-measure-what-matters); design decision in [implementation plan §5](implementation-plan.md)).
 3. **The one thing they dislike — a moving cap table — is pre-solved:** the automatic freeze at the priced round converts the ledger to fixed units before any investor prices it ([Silicon Hills Lawyer 2015](https://siliconhillslawyer.com/2015/06/01/founder-equity-grunt-funds/); [Moyer freeze](https://support.thepieslicer.com/article/show/112619-how-do-i-freeze-bake-terminate-the-pie)).
+
+## 6b. Advisors and part-time experts (the academic-advisor case)
+
+A high-profile expert (e.g., a professor) promised "a decent share" needs a decision about what the promise was *for*:
+
+- **Ongoing technical work** → merit pool at the benchmarked Chief Scientist rate for logged hours. The rate is legitimately high **because the benchmark says so, never because it was negotiated** — one negotiated rate makes every rate negotiable and destroys the system's diligence value. Note the formula's honest consequence: high rate × few hours = modest accrual; that is correct pricing of part-time contribution, not an error.
+- **Name, credibility, and occasional guidance** → a **fixed Class P advisor grant**: FAST expert tier is 0.6–1.0% at idea/startup stage, monthly vesting over 2 years ([Founder Institute FAST](https://fi.co/fast)).
+- **Recommended hybrid:** fixed [1]% advisor grant (formalizes the promise with an investor-legible number) **plus** merit participation at the benchmarked rate for actual logged hours. A named expert at ~1–2% vesting is a diligence asset; the same expert at 8% with minimal hours is dead equity.
+
+**University IP / COI flag (counsel, before signing):** if any company technology touches the professor's university resources, students, or research, the university may hold an IP claim under its faculty IP policy, and faculty equity typically requires conflict-of-interest disclosure/approval. Obtain (a) the professor's written provenance statement for contributed IP, (b) confirmation of university COI compliance, (c) counsel's review of the university IP policy against the facts. University IP claims are a classic ML-startup diligence killer (cf. the founder-agreement/IP lessons of [Snap/Brown, TechCrunch 2017](https://techcrunch.com/2017/02/02/snapchat-reggie-brown/)).
 
 ## 7. What this formula deliberately does NOT do
 
