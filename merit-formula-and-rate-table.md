@@ -49,7 +49,19 @@ Deliberate properties: the spread between the lowest and highest rate is **1.5x,
 - **Creditable hours cap: [50]/week.** Prevents hour-inflation contests; beyond the cap you're donating, same as everyone.
 - **Contemporaneous logging, lightweight:** a weekly one-line log per bucket (tool of choice), submitted monthly. Late logs (>30 days) credit at 50%.
 - **Evidence on request:** commits/PRs for engineering; calendars and hiring records for management; artifacts (decks, models, specs, signed customers) for business/vision. The board certifies quarterly; the Independent Manager resolves disputes finally ([Plan 1 §5.3](plan-1-operating-agreement.md)).
-- **Retroactive backfill** (founding → now): same buckets and rates, reconstructed from evidence, self-certified, board-approved, then **final** ([Plan 1 §5.4](plan-1-operating-agreement.md)).
+- **Retroactive backfill** (founding → now): same buckets and rates, reconstructed from evidence, self-certified, board-approved, then **final** ([Plan 1 §5.4](plan-1-operating-agreement.md)). Protocol in §4b below.
+
+### 4b. Backfill protocol (the past year — coarse by design)
+
+Hour-by-hour reconstruction of the past year is false precision that manufactures disputes. Instead:
+
+1. **Default-hours convention:** for each active month, credit every person a standard **[45] hrs/week** regardless of actual hours, unless a person claims a material deviation *and* brings evidence. Per person per month, only three facts are needed: active or not (≥[20] hrs/week test), role split, and cash compensation paid.
+2. **Evidence already exists:** git/PR history (engineering), calendars and payroll (management, salaries), bank statements (cash). No diaries required.
+3. **Sensitivity reality:** ±10% on hours moves a final percentage by well under a point; **active-vs-inactive months and paid-vs-unpaid dominate the outcome**. Negotiate the activity timeline, not hour counts.
+4. **Process:** each person submits a months × role-split × pay grid → published to all participants → board approval → Independent Manager resolves disputes → **final and non-reopenable** ([Plan 1 §5.4](plan-1-operating-agreement.md)).
+5. **Sequencing:** sign the MOU (rules) **before** running the backfill (numbers). Agreeing on the formula before anyone sees their own result is a veil-of-ignorance fairness device — and prevents rule-negotiation aimed at flattering one's own outcome ([procedural-justice basis: Breugst et al. 2015](https://ideas.repec.org/a/eee/jbvent/v30y2015i1p66-94.html)).
+
+Go-forward logging remains as in §4: one line per week per bucket, submitted monthly — the upside ledger, not a timesheet.
 
 ## 5. Worked example (one quarter, 13 weeks)
 
