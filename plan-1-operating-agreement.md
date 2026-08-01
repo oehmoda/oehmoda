@@ -223,7 +223,7 @@ Governing law: Massachusetts. Disputes not resolved under Article XII: binding a
 ## Schedules
 
 - **A — Members, Set-Aside tranches, and initial earned amounts** (from the ratified backfill)
-- **B — Market-Rate Table** (roles, salaries, hourly rates, evidence standards)
+- **B — Market-Rate Table** (roles, salaries, hourly rates, evidence standards) — drafted in full at [`merit-formula-and-rate-table.md`](merit-formula-and-rate-table.md)
 - **C — DRI Map** (every function → exactly one owner)
 - **D — Initial CEO and Board designations**
 - **E — Form of Invention & IP Assignment + Confidentiality Agreement**
