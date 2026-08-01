@@ -493,4 +493,4 @@ signs this acknowledgment individually. `[⚖ consider mutual releases.]`
 **Schedules.** A: Founders. B: Initial Rate Table & leveling rubric. C: Year-1
 true-up procedure & evidence standards. D: Form of Contribution & IP Assignment.
 E: Form of Advisor Agreement. F: Initial DRI map. G: Ledger specification (columns,
-formulas, worked example — see `plan5-design.md` §6).
+formulas, worked example — see `plan5-design.md` §2.6).
