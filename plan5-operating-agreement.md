@@ -117,16 +117,21 @@ require founders and key holders to re-subject a portion of already-earned stock
 time-based reverse vesting at the priced round; each Founder pre-agrees to re-vesting
 of up to [25]% of their then-holdings over [2] years if the lead investor requires it.
 
-**3.6 Incentive Units as profits interests.** All equity earned through the
-Contribution Ledger after the Restatement Date is issued as Incentive Units intended
-to qualify as **profits interests** (Rev. Proc. 93-27 / 2001-43 safe harbors), each
-tranche with a distribution threshold equal to Company value at grant, so grants are
-not taxable compensation at issuance and require no 409A appraisal. Members shall file
-**protective 83(b) elections within 30 days** of each grant. Retroactive Year-1
-allocations under 4.8: `[⚖ OPEN — issuing year-1 equity as capital interests at
-today's (still-low) value vs. catch-up profits interests with a nominal threshold;
-counsel/tax to choose the structure that minimizes ordinary income while surviving
-diligence. Do NOT close this without a valuation memo.]`
+**3.6 Form of Incentive Units.** Equity earned through the Contribution Ledger is
+issued as Incentive Units. Default intent: **profits interests** (Rev. Proc. 93-27 /
+2001-43 safe harbors) with a distribution threshold equal to Company value at grant —
+not taxable compensation at issuance and no 409A appraisal needed — with
+**protective 83(b) elections filed within 30 days** of each grant. **However**, a
+profits interest converts into C-corp stock at conversion only to the extent of
+appreciation above its hurdle; tranches granted shortly before conversion could
+convert into little or nothing. `[⚖ OPEN — counsel/tax must choose per tranche
+between (a) profits interests (tax-free grant, conversion-evaporation risk),
+(b) capital-interest/restricted-unit grants with 83(b) at the Company's current
+(still-low) appraised value (small ordinary income now, full stock at conversion),
+or (c) a single catch-up issuance at the Freeze Event immediately before conversion.
+The same choice applies to the retroactive Year-1 allocations under 4.8. Do NOT
+close this without a valuation memo; coordinate every grant with the conversion
+timeline.]`
 
 ---
 
