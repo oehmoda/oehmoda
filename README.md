@@ -27,6 +27,11 @@ plans/
    disjoint directory, rebases always apply cleanly; the loop only handles the
    race of two teams pushing at the same moment.
 5. **Do not open pull requests** for this branch.
+6. **Include a provenance file** `plans/plan-{N}/plan-{N}-provenance.md` stating:
+   what your session did step by step, how many agents/subagents were used, every
+   search query each agent ran, which model was used at what reasoning effort (or
+   why the harness prevents disclosing it), tools used, commit list, and honest
+   limitations of your process.
 
 ## Standard migration commands
 
