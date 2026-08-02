@@ -1,0 +1,27 @@
+# plan-7 — One-Pager
+### Governance & equity for a 1-year-old MA LLC: 5 founders (some inactive), ~10 employees, everyone unpaid, one part-time Yale ML professor promised "a decent share"
+
+## What the research found (full citations in `plan-7-references.md`)
+
+1. **Static, early, equal splits are the documented failure mode.** 73% of teams split within a month; quick-handshake equal splitters raise less and at lower valuations (~10% of equity at stake) — correlational, but converging with lab evidence that equal splits shelter free-riders and with theory (Holmström) that budget-balanced sharing under-provides effort. Survival, notably, is unaffected — the cost is growth and terms, not death. The practitioner world is split (YC says near-equal; Slicing Pie/Demmler say contribution-weighted); this company's fixed requirements and diverged contributions put it firmly on the contribution-weighted side.
+2. **Process legitimacy beats numeric precision.** Perceived fairness of the split — transparency, participation, negotiation — is what drives team spirals (Breugst et al. 2015); teams that never negotiated are ~3x likelier to be unhappy later.
+3. **The only fully specified contribution system in industry use is Slicing Pie:** slices = fair-market value × risk multiplier (2x time, 4x cash), freeze at funding/breakeven. Lawyers' critiques (tax fit, investor acceptance) all point the same way: run it in an LLC, keep a disciplined ledger, freeze into a fixed cap table before investors arrive.
+4. **Leadership: one accountable, removable CEO wins the evidence** — "consensus with qualification" (Eisenhardt), power-gap results even within co-CEO pairs (Krause 2015), vertical+shared leadership as complements in startups (Ensley 2006) — while founder control hoarding is priced at −17–22% valuation per control level (Wasserman 2017) and founder replacement causally improves performance (Ewens & Marx 2018).
+5. **Massachusetts law is the sleeping giant:** unpaid employees = accruing Wage Act exposure with mandatory treble damages and personal liability for managing founders (Cook, Reuter, Stanton); clawing earned equity from inactive founders invites freeze-out claims (Donahue, Wilkes, Allison). Both shape the design decisively.
+6. **The professor's market:** advisor medians are small (Carta: 0.21% pre-seed; FAST expert tier 1%; part-time academic co-founders ~5%); star rates are legitimately high ($400–500/hr survey-grade); Yale's one-day/week cap and near-impossible consulting-IP carve-out (enforced even against a Nobel laureate, Fenn v. Yale) make his IP the real risk, not his percentage.
+
+## The design (full rationale in `plan-7-design.md`)
+
+- **25% Founder Reserve:** 5% per founder, vesting 1/48/month **only in months the founder actually works ≥ half-time**; missed tranches forfeit permanently into the pool; retroactive credit only for evidenced active Year-1 months. Use-it-or-lose-it, made literal.
+- **75% Contribution Pool:** units = hours × BLS-anchored market rate for the activity ($40/$66.50/$105 bands; $400/hr expert band) × 2 (time) or × 4 (cash). Identical formula for founders and employees; weekly logging; monthly company-wide transparency; freeze at first priced round / Delaware conversion / breakeven, then a 12.5% option pool.
+- **Year 1 (no time records):** coarse involvement bands (2,000/1,500/1,000/500/100/0 hrs) set by claims + artifacts (git, docs, calendars) + blind peer rating, arbiter for gaps, ratified by unanimous signing. No false precision; inactive founders get exactly what they can evidence.
+- **Inactive founders:** keep everything earned (the legally safe line), lose everything unearned automatically; no board seat by right; offered — never forced — a fair-value buyout.
+- **Professor:** same engine, expert-band rate (his "higher rate," delivered objectively); expected outcome 0.5–1.5%, capped 2% total advisors; written agreement with integration clause supersedes the oral promise; Yale IP structured around by counsel; optional milestone top-up bracketed.
+- **Governance:** members (founders and employees alike, unit-weighted) elect a 3-seat board annually; board hires/fires a single CEO; three decision tiers (CEO / board majority / 66⅔% of units); no unanimity anywhere; ABA-standard dispute ladder ending in arbitration, shotgun only as last-resort deterrent; whole structure sunsets automatically into the NVCA-standard board at financing.
+- **Entity path:** stay MA LLC now (profits interests, clean dynamic re-percentaging), pre-authorized conversion to Delaware C-corp at the freeze (§351, QSBS clock from conversion FMV, post-OBBBA $15M/tiered-exclusion regime).
+
+## What counsel must fix first (not optional)
+
+**Wage Act remediation before anything is signed** (treble damages, personal liability, void deferral agreements, $15/hr floor, ABC-test trap) → then unanimous OA signing + Year-1 ratification + PIIAs + professor agreement → tax execution (capital-interest grants at low FMV, 83(b)s in 30 days, securities exemptions) → at financing: freeze, convert, NVCA docs.
+
+**Honesty box:** the founder-split evidence is correlational; dynamic-equity mechanisms have never been rigorously outcome-tested; the annually-elected-board element is our reasoned extrapolation, not a validated pattern — and URL verification was constrained by the research environment (per-source status in the references file).
