@@ -29,7 +29,12 @@
 
 2.1 **Members.** All persons holding Units. Current signatories: five Founders, [~10] contributors, and the Advisor upon satisfaction of Article VI conditions.
 
-2.2 **Classes.** A single class of voting Units. No separate founder class, no super-voting rights, no golden shares. [Rationale: multi-class founder-control structures measurably depress private-company valuations and complicate financing; see design doc §3.]
+2.2 **Classes.** A single class of voting Units. No separate founder class, no super-voting rights, no golden shares. [Rationale: multi-class founder-control structures measurably depress private-company valuations and complicate financing; see design doc §3.] [Counsel note: this Agreement must expressly override the ch. 156C **default** that member voting tracks unreturned capital contributions (§21) and that the LLC is member-managed (§24) — voting here is one Unit, one vote, and management is by the Board of Managers.]
+
+2.2A **Form of interest (counsel election, per participant).** Every participant's CP accrues under the identical Article IV formula. The *instrument* holding the resulting economics may take one of two forms, economically identical and convertible into the same stock at Crystallization:
+- (a) **Member Units** (intended as profits interests) — holder becomes a member, receives K-1s, ceases W-2 status (Rev. Rul. 69-184); appropriate for founders and any contributor who accepts member status; or
+- (b) **Ledger Rights** (phantom units / unit-appreciation rights tracking CP one-for-one, settled in stock at conversion or cash on a sale) — holder stays a W-2 employee once payroll starts, avoiding K-1/self-employment-tax burdens; must be drafted 409A-compliant.
+[Open point: default election per person. The fixed requirement of "identical terms" is satisfied — same formula, same CP, same economics; only the tax wrapper differs, at the individual's election with tax advice. Counsel must confirm the phantom variant's 409A structure and that settlement mechanics at conversion are pari passu with Member Units.]
 
 2.3 **Units from the two sources only.** Initial equity comes exclusively from (a) the Contribution Pool and (b) the Founder Reserve. No other grants, side letters, or verbal promises create equity.
 
@@ -144,7 +149,9 @@
 2. **Yale conflict-of-interest disclosure/approval** as his faculty obligations require; written confirmation that his Company work is within permitted outside-activity limits.
 3. IP provenance certification: nothing contributed was created with university resources or is subject to university/Bayh-Dole claims; where his prior academic IP is needed, a license from Yale, not an informal contribution. [Counsel: this is a diligence landmine for future investors; paper it now.]
 
-6.5 **Board/consultant status.** The Advisor is not a manager and holds no board seat by virtue of this Article. [Open point: a Scientific Advisory Board title is fine; governance power is not part of "a decent share."]
+6.5 **Board/consultant status.** The Advisor is **not a manager** and holds no board seat by virtue of this Article — deliberately: Yale limits faculty external activity to one day per seven-day week and restricts management roles in for-profits, and MA Wage Act liability attaches personally to "agents having the management" of the company. A Scientific Advisory Board title is fine; governance power is not part of "a decent share."
+
+6.6 **Time cap.** The advisor agreement caps expected engagement within Yale's one-day-per-week external-activity limit; the Ledger cannot accept hours logged beyond the cap [prevents both a Yale-policy violation and a runaway specialist-rate accrual].
 
 ---
 
@@ -180,7 +187,7 @@
 
 9.2 **At Crystallization:** the Ledger freezes (final month closes, challenges resolved), percentages become fixed, and the dynamic system **ends permanently**. Unvested Founder Reserve tranches continue on their existing schedule as time-based vesting of fixed shares.
 
-9.3 **Conversion.** Upon a qualified financing (or earlier by Fundamental vote), the Company converts to a **Delaware C-corporation** (statutory conversion or merger — counsel selects the tax-efficient route; Rev. Rul. 84-111 framework), with:
+9.3 **Conversion.** Upon a qualified financing (or earlier by Fundamental vote), the Company converts to a **Delaware C-corporation**. [Counsel: ch. 156C has no clear outbound-conversion provision for LLCs; the reliable route is a **merger of the LLC into a new Delaware corporation** under ch. 156C §§59–63 (members' interests exchanged for stock), treated as "assets-over" under Rev. Rul. 84-111 / §351 tax-free if ≥80% control; check §357(c) liabilities-over-basis and negative capital accounts first.] Terms:
 - each member receiving stock pro rata to Units;
 - a new employee **option pool of [12–15]%** (post-conversion) for future hires;
 - standard 4-year/1-year-cliff vesting for future grants;
@@ -194,14 +201,14 @@
 ## Article X — Information Rights, Confidentiality, IP
 
 10.1 All members: quarterly financials, annual budget, full Ledger access, K-1s on time.
-10.2 Every member signs a confidentiality and **present-assignment IP agreement** covering all work for the Company (retroactive confirmation for Year One work — a diligence must-have). [Counsel: MA has statutory limits on non-competes (2018 Act — garden-leave/consideration rules); recommend nonsolicit + confidentiality + assignment, and only targeted noncompetes if any.]
+10.2 Every member signs a confidentiality and **present-assignment IP agreement** ("hereby assigns", not "agrees to assign" — Stanford v. Roche makes the tense dispositive) covering all work for the Company, with retroactive confirmation for Year One work — a diligence must-have. [Counsel: MA Noncompetition Agreement Act (M.G.L. c. 149 §24L) requires garden leave or agreed consideration and voids noncompetes for non-exempt or without-cause-terminated employees — and unpaid workers have no "base salary" to compute garden leave from. Recommend nonsolicit + confidentiality + assignment only; assess §24L applicability before any member noncompete.]
 10.3 No member may use Company confidential information for outside work; the Advisor's academic publishing rights are governed by the advisor agreement [open point: publication review window, e.g., 30 days].
 
 ---
 
 ## Article XI — Disputes and Deadlock
 
-11.1 **Ladder:** (1) good-faith negotiation between principals [14 days]; (2) mediation in Boston (JAMS/AAA) [30 days]; (3) final binding **arbitration** in Boston, single arbitrator, [AAA Commercial Rules], fee-shifting at arbitrator's discretion; carve-outs for injunctive relief (IP/confidentiality) in court.
+11.1 **Ladder:** (1) good-faith negotiation between principals [14 days]; (2) mediation in Boston (JAMS/AAA) [30 days]; (3) final binding **arbitration** in Boston, single arbitrator, [AAA Commercial Rules], fee-shifting at arbitrator's discretion; carve-outs for injunctive relief (IP/confidentiality) in court. [Counsel: enforceable under the FAA and Mass. Uniform Arbitration Act, M.G.L. c. 251; confirm arbitrability of fiduciary-duty claims among members and the Wage Act interaction.]
 11.2 **Ledger appeals** follow §4.4 then this ladder; the arbitrator applies the formula — no equitable re-slicing.
 11.3 **Deadlock** (Board or Fundamental-vote deadlock persisting [60] days on a matter threatening operations): either side may trigger **appraised Fair Value buyout** mediation; explicitly **no shotgun/Russian-roulette clause** [rationale: shotgun clauses favor the cash-rich party and are fiduciary-fraught in MA close entities — design doc §7].
 11.4 Governing law: Massachusetts (pre-conversion). [Counsel: choice of forum; interaction of arbitration with Wage Act claims — some claims are non-arbitrable or arbitrable only with care.]
@@ -212,9 +219,9 @@
 
 *Not an equity term — a gating legal-risk item counsel must drive. The equity design assumes it is fixed.*
 
-12.1 **Massachusetts Wage Act.** ~10 non-owner workers have been unpaid for up to a year. MA law: no volunteering for a for-profit; wages cannot be waived or replaced with equity; violations carry **mandatory treble damages, 3-year lookback, and personal liability for officers/managers**. The Company must, with counsel, immediately either (a) put workers on lawful payroll (≥ MA minimum wage, overtime as applicable), (b) convert genuine partners into bona fide equity members with counsel-blessed documentation, or (c) pause non-member work. Back-wage exposure must be quantified and remediated; Units do NOT settle it.
+12.1 **Massachusetts Wage Act.** ~10 non-owner workers have been unpaid for up to a year. MA law: no volunteering for a for-profit; wages cannot be waived, deferred by "special contract," or replaced with equity (Stanton v. Lighthouse Fin. Servs., D. Mass.); violations carry **mandatory treble damages (strictly — even good-faith late payment before suit is trebled, Reuter v. City of Methuen, 489 Mass. 465 (2022)), a 3-year lookback, 12% interest, attorney's fees, and personal liability for the individuals managing the company** (LLC managers included — Cook v. Patient EDU, LLC, 465 Mass. 548 (2013) [counsel to confirm citation]). Each missed payday is a fresh violation; there is no clean self-cure. The Company must, with counsel, immediately either (a) put workers on lawful payroll (≥ MA minimum wage $15/hr, overtime as applicable), (b) convert genuine partners into bona fide equity members with counsel-blessed documentation (the member/employee line for token grants is fact-intensive — counsel call), or (c) pause non-member work. Back-wage exposure must be quantified and remediated with individually negotiated releases [counsel: enforceability of private Wage Act releases]; Units do NOT settle it.
 12.2 **Misclassification.** MA's strict ABC test (ch. 149 §148B) likely makes these workers employees, not contractors. Counsel to assess.
-12.3 **Securities.** ~15+ equity recipients: counsel to select exemptions (e.g., §4(a)(2)/Reg D; note Rule 701 is unavailable to LLCs in the usual form), file any MA blue-sky notices, and paper investment representations.
+12.3 **Securities.** ~15+ equity recipients: LLC interests granted for services are securities. Counsel to paper the Ledger as a **written compensatory plan** so grants fit **Rule 701** (which is available to non-reporting LLCs) and/or §4(a)(2); confirm the Massachusetts compensatory blue-sky exemption (M.G.L. c. 110A §402(b)(13); 950 CMR 14.402(B)(13)) covers profits-interest grants; keep compensation grants strictly separate from any future cash raise (Reg D 506(b), Form D + MA notice filing).
 12.4 **Prior promises.** Inventory all informal equity promises (beyond the Advisor's) and clean them up with the release/supersession mechanics of §1.4.
 12.5 **Insurance/agreements hygiene:** D&O when affordable; IP assignments (§10.2); employment documentation as payroll starts.
 
