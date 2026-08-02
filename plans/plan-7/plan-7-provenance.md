@@ -189,8 +189,9 @@ The harness for this session prohibits writing the model identifier into reposit
 | Hash | Branch | Content |
 |---|---|---|
 | `98ad478` | `plan-7` | Root commit: the four deliverables (`plan-7-one-pager.md`, `plan-7-design.md`, `plan-7-operating-agreement.md`, `plan-7-references.md`) |
-| (HEAD of `all-plans` at push time — hash assigned at commit; see `git log all-plans -1`) | `all-plans` | Adds `plans/plan-7/`: the four deliverables copied byte-identical from `plan-7` via `git show`, plus this provenance file |
-| (second commit on `plan-7`) | `plan-7` | Mirrors this provenance file onto the plan-7 branch |
+| `af10242` | `all-plans` | Adds `plans/plan-7/`: the four deliverables copied byte-identical from `plan-7` via `git show`, plus this provenance file (with this table's later hashes still as placeholders) |
+| `c161f09` | `plan-7` | Mirrors the provenance file onto the plan-7 branch |
+| (this commit, and its mirror on `plan-7`) | `all-plans` / `plan-7` | Records the final hashes above in this table; no other changes |
 
 ## 7. Honest limitations of this process
 
