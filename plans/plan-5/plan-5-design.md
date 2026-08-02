@@ -1,198 +1,510 @@
-# plan5 — Full Design: Governance & Equity Framework
+# Plan 5 — Governance & Equity Framework: Full Design and Rationale
 
-**Team:** plan5 · **Branch:** `plan-5` · **Date:** August 1, 2026
-**Isolation statement:** Produced on an empty orphan branch; no other team's branch or file was read, checked out, diffed, or browsed.
+**Prepared by plan5 for the five founders of [Company], a Massachusetts LLC (~1 year old, 5 founders, ~10 employees, all unpaid).**
 
-This document is the complete business-terms design. The article-by-article draft for counsel is in [`plan-5-operating-agreement.md`](plan-5-operating-agreement.md); the annotated bibliography with evidence-strength ratings is in [`plan-5-references.md`](plan-5-references.md).
-
----
-
-## Part 0 — Sequencing: three moves, in a fixed order
-
-The order below is driven by legal exposure and tax mechanics, not preference. Doing these out of order either compounds a wage-law violation or wastes a low-valuation tax window.
-
-**Move 1 (immediately, weeks 0–4): Cure the Massachusetts Wage Act exposure.**
-The company has ~10 unpaid employees. Under M.G.L. c. 149 §148, an employer that fails to pay wages is strictly liable for **treble damages plus attorneys' fees**, even if it later pays ([Reuter v. City of Methuen (2022); Holland & Knight](https://www.hklaw.com/en/insights/publications/2022/04/massachusetts-sjc-upends-existing-law-requires-treble-damages)). "Special contracts" in which an employee agrees to defer or waive wages for equity are **unenforceable** ([Mass. Wage Law on startups](https://masswagelaw.com/startup-companies-and-unpaid-wages/)). Liability is **personal** for the president, treasurer, and "officers or agents having the management" of the company ([Boston Bar Association](https://bostonbar.org/journal/director-liability-under-the-massachusetts-wage-act-the-supreme-judicial-court-clarifies-the-law-but-traps-may-remain-for-the-unwary/)) — which likely includes several founders individually. Note also that Massachusetts's independent-contractor statute uses the strictest "ABC" test, so relabeling employees as contractors does not work ([Bennett & Belfort](https://www.bennettandbelfort.com/practice/payment-wages-employee/)).
-
-*Design decision:* every current unpaid contributor must, on counsel's advice, become either (a) a **bona fide member of the LLC** (an owner, not an employee — this is precisely what the Contribution Pool below does, and it is the recommended path for the current team), or (b) a paid employee at no less than minimum wage. The framework below assumes (a) for the existing 15 people; all *future* hires after the first financing are conventional salaried employees with option grants. **Counsel must bless the member-not-employee characterization for each person** (factors: genuine governance rights, profit share, no fixed "wage"); this is flagged in the operating agreement draft.
-
-**Move 2 (weeks 2–8): The Retrospective Reckoning.**
-A one-time, formula-driven allocation of Year 1 contributions under the ledger rules of Part 2, run *while the company's paper value is still low*. Tax reason: equity issued for past services is compensation; issuing capital interests (or, if counsel prefers, catch-up profits interests under [Rev. Proc. 93-27 / 2001-43](https://www.irs.gov/pub/irs-drop/rp-01-43.pdf)) at today's near-zero valuation minimizes ordinary-income exposure, whereas waiting until a financing makes the same grants expensive ([The Tax Adviser on profits interests](https://www.thetaxadviser.com/issues/2025/jan/profits-interests-the-most-tax-efficient-equity-grant-to-employees/)).
-
-**Move 3 (weeks 8–16): Statutory conversion to a Delaware C-corporation.**
-- **Investor expectation:** VCs overwhelmingly require a Delaware C-corp; conversion at the term-sheet stage adds cost and friction at the worst moment ([Startups.com](https://www.startups.com/lexicon/llc-vs-c-corp); [Flux Law conversion guide](https://www.flux.law/blog/convert-llc-to-delaware-c-corp)).
-- **QSBS:** §1202 exclusion applies only to C-corp stock; LLC interests never qualify. Under the One Big Beautiful Bill Act (July 4, 2025), stock issued after that date carries a **$15M per-taxpayer exclusion cap** (up from $10M) and a tiered 50/75/100% exclusion at 3/4/5-year holds; the **holding period starts at conversion, not LLC formation** — so every month of delay is a month of lost QSBS clock ([Holland & Knight](https://www.hklaw.com/en/insights/publications/2025/08/conversion-of-partnership-and-llc-interests-into-qualified); [Millan & Co. §1202 guide](https://millancpa.com/insights/section-1202-qualified-small-business-stock-qsbs-tax-guide)). A subtle benefit of converting while cheap: the LLC's built-in appreciation at conversion counts toward §1202 basis rules in ways counsel should optimize now, not later ([FBT Gibbons](https://fbtgibbons.com/guide-to-converting-partnerships-into-c-corporation-issuers-of-qsbs-part-1/)).
-- **Mechanics:** LLC units convert 1:1 into restricted common stock carrying the same earn-in/vesting overlays; recipients file **83(b) elections within 30 days**; post-conversion equity compensation runs under [Rule 701](https://www.cooleygo.com/why-private-companies-should-know-about-rule-701-options-rsas-and-rsus/) with 409A valuations.
-
-*Why not stay an LLC?* The strongest pro-LLC argument is the tax-free flexibility of profits interests. It loses here because fixed requirement #3 (maximize investor attractiveness) is categorical, the team is 15+ people (LLC K-1s at that scale are a real cost), and the QSBS clock rewards early conversion. We say this to be honest that the LLC-longer path is *defensible* — some boutique counsel advocate it — but it is dominated on the founders' own stated priority.
+Companion documents: `plan-5-one-pager.md` (summary), `plan-5-operating-agreement.md`
+(article-by-article business-terms draft), `plan-5-references.md` (annotated bibliography
+with evidence-strength ratings). Citations below use [R-n] keys resolved in the
+references file; every source URL there was verified live this session (see the
+verification-method note at the top of that file).
 
 ---
 
-## Part 1 — Governance
+## 1. What we were asked to do, and the one thing we must say first
 
-### 1.1 What the evidence says
+We were asked to design governance and equity within four fixed requirements: (1) each
+founder's reserved allocation capped at 5%, earn-only; (2) all remaining equity through an
+objective contribution-based system on identical terms for founders and employees;
+(3) maximum attractiveness to future investors; (4) business terms for counsel, not
+statutory drafting.
 
-The founders asked us not to assume a conventional answer, so we looked at the leaderless/shared/rotating options seriously. The literature splits cleanly along a line that is often missed:
-
-- **Shared leadership as *behavior* is good.** Meta-analytically, shared leadership correlates with team effectiveness at ρ ≈ .34 across 42 samples ([Wang, Waldman & Zhang 2014](https://pubmed.ncbi.nlm.nih.gov/24188392/); confirmed with different measurement moderators by [D'Innocenzo, Mathieu & Kukenberger 2016](https://www.sciencedirect.com/science/article/abs/pii/S1048984314000691)). In new-venture top management teams specifically, *both* vertical (single-leader) and shared leadership predict revenue and employee growth, with shared leadership adding explanatory power *on top of* vertical leadership — not instead of it ([Ensley, Hmieleski & Pearce 2006](https://www.sciencedirect.com/science/article/abs/pii/S1048984306000051), samples of 66 Inc.-500 and 154 random startups).
-- **Flat *structure* is bad for execution.** Using a large sample of game-development startups, Lee finds flat hierarchies improve novelty but cause "haphazard execution and commercial failure," overwhelming informal leaders and inducing power struggles ([Lee 2022, *SMJ*](https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3333)). Five semi-active founders with no formalized authority is exactly the failure mode this paper describes.
-- **Co-CEOs: intriguing but weak evidence.** The best-known result — 87 public co-CEO firms returning 9.5%/yr vs 6.9% for single-CEO peers ([Feigen, Jenkins & Warendh 2022, HBR](https://hbr.org/2022/07/is-it-time-to-consider-co-ceos)) — is a tiny, survivorship-biased sample of *large public companies*, not startups. We do not build on it.
-- **Control-hoarding is costly.** Founders who kept both the CEO role and board control held equity stakes worth roughly half those of founders who ceded both ([Wasserman 2008, HBR "The Founder's Dilemma"](https://hbr.org/2008/02/the-founders-dilemma); [Wasserman, "Rich vs. King," Academy of Management 2006](https://www.noamwasserman.com/nwasserman/Rich_vs_King-Proceedings_with_abstract.pdf)). Correlational, but consistent with requirement #3.
-- **Boards start founder-controlled and professionalize.** In a comprehensive dataset of VC-backed startup boards, formation-stage boards are entrepreneur-controlled; independents arrive around the second financing and play a documented *mediation* role in founder–investor conflict ([Ewens & Malenko, *J. Finance* 2025 / NBER w27769](https://www.nber.org/papers/w27769)). Building a conventional, expandable board now means no re-architecture at the term sheet.
-
-**Honest limits:** everything above is correlational or qualitative; none of it is causal identification. The design therefore prefers *reversible* governance choices (annual mandates, elected seats) over irreversible ones.
-
-### 1.2 The structure
-
-**A single CEO with an annual, revocable mandate — merit-selected, not seniority-selected.**
-- The Board appoints the CEO by majority vote after a structured internal process open to any member (founder or not). The mandate renews annually by board vote; the board may remove the CEO at any time by majority.
-- The CEO is the single point of external accountability (investors, contracts, hiring within budget) and runs day-to-day operations.
-- *Why not rotate?* Rotation re-imposes the coordination costs Lee (2022) documents, and signals to investors precisely the diffuse accountability that Hellmann & Wasserman associate with weaker financing outcomes. *Why not consensus?* Five founders with divergent activity levels already failed to formalize a simple agreement in a year; consensus governance has an empirical failure mode this team has personally demonstrated.
-
-**Shared leadership, kept — at the operating level.**
-A written **Decision Rights Matrix** (DACI-style) delegates domains to functional leads chosen by the CEO with board consent (e.g., product/architecture, engineering delivery, research, business development). Domain leads decide within their domain and budget; the CEO decides cross-domain conflicts; the board decides what the matrix reserves to it. This captures the measured benefits of shared leadership (Ensley et al. 2006) inside an accountable structure. The matrix itself is in the operating agreement draft, Art. V.
-
-**Board of Managers (→ Board of Directors at conversion): 3 seats, none reserved by founder status.**
-- Seat 1: the CEO, ex officio. Seats 2–3: elected annually by all members, one-unit-one-vote, plurality voting. Any member — founder or employee — may stand.
-- At the first financing, expand to 5: add the investor seat the term sheet demands plus **one independent** (mediation function per Ewens & Malenko).
-- *Why elected, not founder-reserved?* Requirement #2 puts founders and employees on identical terms for everything outside the 25% reserved pool; a founder-status board seat would rebuild the status hierarchy the founders decided to dismantle. It also directly mitigates the dead-equity/inactive-founder problem: authority follows current contribution and unit-weighted support, not history.
-- One-unit-one-vote, no dual-class: supervoting founder shares at this stage are an investor red flag and inconsistent with requirement #2 ([Carta on founder shares](https://carta.com/learn/startups/equity-management/founder-shares/)).
-
-**Reserved matters — supermajority of units (66⅔%):** amending the operating agreement; issuing equity outside the adopted pools/plan; changing the Rate Table or multipliers; merger, sale, or dissolution; related-party transactions above $10,000; conversion to C-corp terms (the conversion itself is pre-authorized in the OA at these terms); admitting new members outside the plan. **Board majority:** annual budget; hiring/removing officers; any expenditure > $25,000 outside budget; adopting the annual Decision Rights Matrix. **CEO:** everything else, within budget.
-
-**Contribution Committee: 3 members — administers the ledger.**
-Elected annually by unit vote; at least one seat must be held by a non-founder. Runs the quarterly ledger cycle (Part 2), rules on classification disputes, applies the impact kicker with recusal rules. Appeals go to the dispute ladder (§1.3).
-
-### 1.3 Disputes and deadlock
-
-Tiered, cheap-to-expensive, per standard closely-held-company practice:
-1. **Notice + good-faith negotiation** (14 days).
-2. **Mediation** — AAA or JAMS, Boston (30 days).
-3. **Binding arbitration** — AAA Commercial Rules, Boston; internal-affairs governing law is Massachusetts now, Delaware after conversion (counsel to confirm forum interplay).
-4. **Board deadlock** (only possible post-expansion with an even board or 40%+ unit-block impasse on reserved matters lasting >90 days): the independent director convenes a resolution conference; failing that, either bloc may trigger the **separation mechanism**.
-5. **Separation mechanism — sealed-bid auction, not a shotgun.** Both sides submit sealed per-unit bids; the higher bidder buys the other out at the *higher* bid. We reject the classic shotgun/Texas-shootout deliberately: it systematically favors the party with more cash or information, a flaw documented across the business-divorce literature ([KPPB Law](https://www.kppblaw.com/can-shotgun-clauses-save-or-sink-your-llc-or-corporation-a-closer-look-at-this-legal-tool/); [Weiner Law](https://www.weiner.law/nj-law-blog/shotgun-agreements-and-other-methods-to-break-deadlock/)) — and in this company, cash positions are certain to be unequal. A sealed-bid auction preserves the price-discovery benefit while reducing the wealth-asymmetry weaponization. [Counsel: confirm enforceability and financing-window mechanics; consider an appraisal-based put/call as fallback.]
+**Before any of that: the company's ~10 unpaid employees are a live legal emergency, not a
+design parameter.** Under U.S. Department of Labor policy, private for-profit companies
+cannot lawfully use volunteers at all [R-40], equity cannot substitute for minimum wage
+[R-41], and the Massachusetts Wage Act awards **mandatory treble damages plus attorney's
+fees** for unpaid wages [R-36], with **personal civil and criminal liability** for the
+individuals who manage the LLC (*Cook v. Patient Edu, LLC*, 465 Mass. 548 (2013)) [R-38],
+and no cure by paying late (*Reuter v. City of Methuen*, 489 Mass. 465 (2022)) [R-37].
+Relabeling the ten as contractors fails prong B of the Massachusetts ABC test
+(c. 149 § 148B) because they do the company's core work [R-42]. At $15/hour Massachusetts
+minimum wage [R-41], ten people × a year of work implies a floor exposure in the high six
+figures *before* trebling — borne personally by whichever founders run the company. Every
+equity mechanism below is designed so it can also *mitigate* this (by making contributors
+genuine members, see §9.1), but only employment counsel can defuse it. **Nothing else in
+this document matters as much.**
 
 ---
 
-## Part 2 — Equity
+## 2. Diagnosis: what kind of problem this company actually has
 
-### 2.1 Architecture (adds to 100%)
+Five facts drive the design:
 
-| Pool | Size | Who | Mechanism |
+1. **The founders already tried the default and it failed.** They began as equal partners;
+   contributions then diverged; some founders went inactive while some employees
+   out-contributed founders. This is the textbook trajectory: 73% of founding teams split
+   equity within a month of founding, mostly with no adjustment mechanism [R-3], about
+   one-third to one-quarter of teams split equally [R-1][R-8], and equal splits agreed
+   quickly are associated with lower first-round valuations [R-1]. More than 23% of
+   cofounders are gone by year three [R-8]. This team is living the base rates.
+
+2. **Nothing is written down.** The informal reserved-allocation agreement and the
+   professor's "decent share" are oral promises layered over a default statutory LLC.
+   Perceived justice of the split — not its arithmetic — is what sends founding teams into
+   positive or negative interaction spirals [R-4], and unexplained reward inequality
+   measurably destroys effort (output −0.24 to −0.45 SD in the best field experiment),
+   while inequality with *observable* justification does not [R-14]. A transparent,
+   evidence-based settlement process is therefore not bureaucracy; it is the intervention.
+
+3. **The team is engineers whose work spans code, management, and vision.** Any
+   contribution metric that scores "vision" subjectively will be gamed or fought over;
+   any metric that counts only commits will be Goodharted. The design prices the *role*
+   (at benchmarked market rates) rather than judging the brilliance (§5.3).
+
+4. **Investors will judge the cap table.** Venture infrastructure presumes a Delaware
+   C-corporation (NVCA model documents [R-27]; ~88% of C-corp startups on Carta are
+   Delaware [R-26]; VC funds avoid LLC pass-throughs because of their tax-exempt LPs'
+   UBTI [R-25]). Departed founders holding large stakes are a named deal-killer
+   (a departed cofounder at 25–40% kills deals; investors expect ex-advisor stakes of
+   0.1–1% [R-33]), and investors "are very likely" to require founder vesting, wanting
+   founders no more than ~40% vested at Series A [R-32].
+
+5. **The fixed requirements already choose a side in a real academic dispute.** Y
+   Combinator's advice is the opposite of contribution-metering: split near-equally
+   because "99% of the work is left to be done" [R-24]. The founders' requirement 2
+   forecloses that path — but we flag honestly (§10) that the pro-metering evidence is
+   correlational and the strongest practitioner voice in startups disagrees with metering
+   as a philosophy. Our design threads this: a *dynamic* system for the messy bootstrap
+   phase, converting deliberately to the conventional fixed-cap-table-plus-vesting stack
+   that YC-style companies use, at the first financing (§5.4, §8).
+
+---
+
+## 3. Design overview
+
+```
+                       ┌──────────────────────────────────────────┐
+                       │  100% of pre-financing equity            │
+                       ├──────────────────────────┬───────────────┤
+                       │  Contribution Pool ≥75%  │ RFA ≤25%      │
+                       │  (identical terms:       │ (5%/founder,  │
+                       │  founders, employees,    │  earn-only,   │
+                       │  professor)              │  1/36·month)  │
+                       └──────────────────────────┴───────────────┘
+  Measurement:  Slices = hours × benchmarked role rate × 2  (cash × 4)
+  Issuance:     Contribution Units quarterly, 1 Unit per Slice; % = your Units / all Units
+  Retroactive:  Year-1 reconstructed once, evidence-weighted, same formula
+  Governance:   3-manager elected board → accountable CEO → domain leads
+                ("consult, then decide"; no vetoes; supermajorities for big moves)
+  Exit ramp:    Freeze Event (financing / conversion / 36 months) → fixed cap table,
+                Delaware C-corp, standard option pool + vesting
+```
+
+---
+
+## 4. Governance: what the evidence supports
+
+### 4.1 The question we were told to investigate honestly
+
+Should a 15-person startup have a single leader, shared leadership, rotating leadership,
+or consensus? We looked for evidence on each. Summary of what exists:
+
+| Option | Best evidence | What it says | Strength |
 |---|---|---|---|
-| Founder Reserved Pool | 25.0% | The 5 founders, 5% each cap | 16-quarter earn-in with activity gate (use-it-or-lose-it) |
-| Advisor Pool | 1.0% | The professor + future advisors | FAST-benchmarked grants, 2-yr vest, 3-mo cliff |
-| Contribution Pool | 74.0% | Founders AND employees, identical terms | Unit ledger: retroactive tranche + quarterly dynamic tranches until the Crystallization Event |
+| Shared leadership | 3 meta-analyses [R-15][R-16][R-17] | Positive team-level effects (ρ ≈ .18–.35), strongest for complex, interdependent work; adds variance **over and above** vertical leadership | Peer-reviewed meta-analytic, but samples are teams *inside* organizations, not whole companies |
+| Fully flat / self-managing | Lee & Edmondson review [R-18]; Zappos record [R-20] | Empirical base "limited — only a few empirical studies"; flagship whole-company experiment lost 14–18% of staff to buyouts and was rolled back | Review + case; thin |
+| Consensus / equal power | Deadlock literature [R-23]; co-CEO study [R-22] | 50/50 power without tiebreakers is a documented catastrophic failure mode; even among co-CEOs, a clear power *gap* improves performance (inverted-U) | Peer-reviewed (law & econ theory + experiment; archival) |
+| Co-CEOs | HBR 2022 analysis [R-21] | 87 public firms, co-CEO tenures returned 9.5% vs 6.9% — but tiny, selection-biased, practitioner-grade | Weak-moderate |
+| Rotating CEO | — | **No empirical literature found.** (The Huawei anecdote circulates uncited; we do not rely on it.) | None |
+| Single accountable leader + heavy input | Eisenhardt [R-19]; Aghion-Tirole [R-24b]; psychological safety [R-19b] | Fast, high-performing deciders in high-velocity markets use *more* real-time information and *more* alternatives, then resolve via **"consensus with qualification"**: everyone gets voice; if consensus doesn't come quickly, the responsible executive decides | Peer-reviewed (8-firm inductive; formal theory; field study) |
 
-After the Crystallization Event (first priced financing ≥ $1M, or the C-corp conversion if the board so elects), the dynamic system freezes into fixed shares and the company moves to conventional compensation: salaries plus a new option pool sized to market (median seed pool ≈ 12.5% of post-money per [Carta data](https://carta.com/learn/startups/equity-management/option-pool/); pools of 10–15% are the U.S. norm). Sunsetting the dynamic model at the first financing is also the standard recommendation of the dynamic-equity literature itself ([Slicing Pie Handbook](https://slicingpie.com/wp-content/uploads/2016/09/Slicing-Pie-Handbook-FREE-SAMPLE.pdf)) and avoids the fixed-cap-table conversion problem practitioners flag ([Equity Matrix](https://equitymatrix.io/blog/slicing-pie-problems)).
+### 4.2 The design that follows
 
-### 2.2 The Founder Reserved Pool — earned, not granted
+**A single accountable CEO, appointed and removable by an elected three-person board, with
+formally delegated domain leads and a mandatory consult-then-decide protocol.** This is
+not the conventional answer adopted by reflex; it is the configuration at the
+intersection of the evidence:
 
-Each founder's 5% divides into **16 quarterly tranches of 0.3125%**, spanning 4 years from company formation (so four tranches are already in the past and are resolved in the Reckoning). A tranche is earned only if the founder met the **Activity Gate** in that quarter:
+- *Why one accountable executive:* the deadlock and co-leadership literature penalizes
+  equal power at the top [R-22][R-23]; Eisenhardt's fast-decider pattern requires a
+  decision-maker of last resort [R-19]. With five founders of diverging commitment, any
+  power-sharing scheme among "the founders" as a class would hand influence to inactive
+  people — exactly what requirement 1 and 2 are trying to end.
+- *Why the CEO is hired help, not a throne:* founder control (board control and/or the CEO
+  seat) is associated with 17–22% lower pre-money valuations per control dimension
+  retained [R-13]; half of founders are no longer CEO by year three, usually after
+  success, not failure [R-2][R-12]; and causal evidence (IV design) shows founder
+  *replacement* improves startup performance [R-7]. So: annual board appointment, removal
+  at will, no founder birthright. This is also the strongest investor signal available —
+  a team that has pre-built professional governance.
+- *Why real domain leads (this is where the shared-leadership evidence lands):* the
+  meta-analytic benefit of shared leadership is real but is a **complement to vertical
+  leadership, in interdependent work** [R-16]. We implement it as formally delegated,
+  published decision authority per domain (Aghion-Tirole's real-authority delegation
+  [R-24b]) rather than as diffuse collective decision-making.
+- *Why consult-then-decide is mandatory, not cultural:* Eisenhardt's "consensus with
+  qualification" [R-19] plus psychological-safety evidence that voice drives learning
+  [R-19b]. The operating agreement makes consultation a *duty* whose breach is reviewable,
+  while making clear that consensus failure never blocks a decision.
+- *Why a 3-person elected board:* practitioner convergence for seed-stage boards is three
+  members, odd-numbered to avoid deadlock [R-30]; venture-board scholarship is young but
+  confirms boards are the apex venue for the decisions that matter [R-28][R-29]. Annual
+  election by all unit-holders (with cumulative voting bracketed to protect minorities)
+  replaces founder entitlement with accountability, and gives the ~10 employees — who now
+  hold real equity — a genuine franchise.
+- *Decision stack:* operational → CEO (after consultation); significant/reserved → Board
+  majority; fundamental → 66⅔% of units; the equity engine itself → 75% (entrenched).
+  No individual has a veto anywhere. Disputes escalate CEO → mediation → binding
+  arbitration, with the buy-sell machinery deliberately absent because a many-holder unit
+  structure cannot produce a 50/50 deadlock [R-23].
 
-> **Activity Gate:** ≥ 390 verified contribution-hours in the quarter (≈30 h/week), **or** ledger points ≥ 75% of the median points of the five most active contributors (founder or employee) that quarter.
+**Evidence honesty:** the strongest claims here rest on correlational or small-sample
+work. Eisenhardt is 8 firms; Wasserman's control discount is association, not causation
+(control-hungry founders differ systematically); the shared-leadership meta-analyses
+aren't about whole companies. What we can say: *no configuration has better evidence than
+"one accountable, removable executive + institutionalized voice + real delegation," and
+the alternatives' failure modes (deadlock, Zappos-style exodus, inactive-founder veto) are
+better documented than their successes.*
 
-- A missed quarter's tranche **cancels permanently** and its equity reverts to the Contribution Pool. No make-ups, no banking. This is the fixed requirement "use it or lose it, not a guarantee," implemented at quarterly granularity so that a founder who is inactive for a year loses 1.25%, not everything and not nothing.
-- Departure (voluntary or removal for cause) cancels all future tranches.
-- The 4-year/quarterly structure mirrors the near-universal market vesting standard (4 years, cliff-style gating; ≥95% of cliffs are one year, and 4/1 is what investors expect to see — [Carta](https://carta.com/learn/equity/stock-options/vesting/), [Crowley Law](https://www.crowleylawllc.com/founder-equity-vesting-guide/)), so no investor re-education is needed.
-- *Why time+activity rather than pure time?* Pure time-vesting would let an inactive founder collect the reserved pool by waiting — exactly the "dead equity" pattern VCs treat as a red flag when ≥10% of the cap table is held by non-contributors ([Perkins Coie](https://perkinscoie.com/insights/blog/dealing-dead-equity); [ISA Ventures](https://isaventures.substack.com/p/dead-equity-on-your-cap-table-is)).
+---
 
-### 2.3 The Contribution Pool — the ledger
+## 5. The contribution engine
 
-**Design lineage and honesty about it.** The ledger adapts the Slicing Pie dynamic-equity model ([Moyer](https://slicingpie.com/wp-content/uploads/2016/09/Slicing-Pie-Handbook-FREE-SAMPLE.pdf)) — the most widely used practitioner framework for exactly this situation (bootstrapped, unpaid, unequal contributions). It has **no peer-reviewed outcome evidence**; our confidence in it rests on (a) the fairness-perception literature showing that perceived injustice in splits poisons teams ([Breugst et al. 2015](https://www.sciencedirect.com/science/article/abs/pii/S0883902614000676)) and dynamic transparent ledgers are engineered for perceived procedural justice, and (b) the finding that *negotiation effort and differentiation* in splits correlate with better outcomes than quick equal splits ([Hellmann & Wasserman 2017](https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2474)). We also correct its documented weaknesses (gaming of multipliers, no performance floor, no legal wrapper — [Equity Matrix critique](https://equitymatrix.io/blog/slicing-pie-problems)) as noted inline.
+### 5.1 Requirements the engine must satisfy
 
-**The formula.** For person *p* in quarter *q*:
+From requirement 2 plus the situation: (a) objective enough that a spreadsheet computes
+every share; (b) identical treatment of founders and employees; (c) handles one
+retroactive unpaid year; (d) handles ongoing unpaid work; (e) prices code, management, and
+vision without a judging panel; (f) doesn't poison the future cap table.
 
-```
-points(p,q) = [ Σ verified_hours(p,q,category) × Rate(category) ] × RiskMult
-            + cash_contributed(p,q) × 4.0
-            + approved_expenses(p,q) × 2.0
-then adjusted: points(p,q) × Kicker(p,q)         where Kicker ∈ [0.75, 1.25]
+### 5.2 The base: a modified Slicing Pie
 
-RiskMult = 2.0 while the person is unpaid; 1.0 for any period they draw ≥ 50% of the Rate in cash
-Share of Contribution Pool = lifetime points(p) / Σ all lifetime points   (recomputed quarterly)
-```
+The only developed practitioner framework for exactly this situation — bootstrapped,
+unpaid, uneven-commitment teams — is Moyer's Slicing Pie: **a contribution's "slices" =
+its fair market value × a risk multiplier (2× for time/non-cash, 4× for cash)**, and a
+person's equity = their slices ÷ all slices [R-45]. A UK advisory that runs it reports
+investors accept it *pre-*round but priced rounds require crystallization [R-48]; a US
+law firm that implements it reports it has "virtually eliminated equity disputes" in
+their client base while warning that US legal/tax infrastructure is "not geared toward"
+it [R-46]. **There is no peer-reviewed evaluation of Slicing Pie or any dynamic split —
+this is a practitioner framework, full stop** [R-1..R-6 find nothing]. Its academic
+support is indirect: theory showing contingent founder contracts and vesting mitigate
+team-formation inefficiencies [R-6]; evidence that heterogeneous contributions *should*
+produce heterogeneous shares [R-1][R-5]; and the fairness literature's finding that
+inequality with observable justification does not damage effort while opaque inequality
+does [R-14][R-4] — a transparent ledger is precisely the "observable justification"
+machine.
 
-**The Rate Table** (anchored to public data, converted at 2,080 hr/yr; re-benchmarked annually by the Contribution Committee, changes require 66⅔% approval):
+We adopt the 2×/4× multipliers as-published rather than inventing our own: they are the
+established Schelling point, their rationale (risk premium on unpaid work and at-risk
+cash) is coherent, and no data exists to tune them better. Deviating would spend
+negotiating capital on an unfalsifiable parameter.
 
-| Category of work (not job title) | Anchor | Rate |
+### 5.3 The modifications (each fixes a documented failure mode)
+
+| Documented failure mode | Source | Our fix |
 |---|---|---|
-| Software engineering | BLS OEWS May 2024 median for software developers, $133,080 ([BLS](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)) | $64/hr |
-| Senior/staff-level engineering & architecture (Committee-certified scope) | +25% band | $80/hr |
-| Engineering management; business planning; fundraising prep; technical vision | pegged to senior band | $80/hr |
-| Specialized ML research | benchmark process, cap 2× base | ≤ $128/hr |
-| Admin/ops | BLS all-occupations-anchored | $30/hr |
+| "Fair market value" of a person's time is contestable | [R-47] | Rates are **role-based from a named published benchmark** (Schedule B: 50th-percentile Boston cash comp per role/level, e.g., levels.fyi US SWE median ≈$192.5K, senior ≈$312K total comp [R-49]), refreshed annually, methodology changes need 75% |
+| Time inflation — unfocused hours out-earn shipped work | [R-47] | Hours creditable only on **Board-approved quarterly workstreams**; lead attestation; 250 h/month cap; 10% random audit; falsification = cause + 2× forfeiture |
+| "Vision"/management either over- or under-valued | (design issue) | Vision, management, and business planning are credited **as hours in the appropriate benchmarked role** (engineering-manager, product/business-lead, executive rates). The role commands a market premium; the ideas themselves earn nothing extra — consistent with Spolsky ("ideas earn nothing") [R-51] and with pricing observability [R-14] |
+| Commit-counting gets Goodharted | (design issue) | Git history is **evidence, not metric** — used to corroborate logged hours, never to compute slices |
+| No cliff → two-week contributors keep slices | [R-47] | Minimum engagement threshold for new participants **[bracketed]**, plus for-cause forfeiture; main protection is that slices only accrue for approved work actually attested |
+| Moving split = ownership anxiety, cap-table churn, tax events | [R-46][R-50] | **Units are issued once per quarter and never re-priced or clawed back**; the split moves only because the denominator grows. LLC profits-interest mechanics (Rev. Proc. 93-27/2001-43 [R-56]) make quarterly issuance non-taxable if papered correctly; protective 83(b)s within 30 days [R-58] |
+| Investors won't price a moving pie | [R-48][R-32] | Hard **Freeze Event** (§8): the pie bakes into a fixed cap table at the earlier of a priced round, conversion, or 36 months — exactly Moyer's own bake trigger (breakeven/Series A) [R-45] |
+| Purely mechanical systems miss outcome quality | (design issue) | Optional, bounded **outcome-bonus pool** (≤10% of a quarter's slices, unanimous board, written public reasons) — bracketed because it reintroduces subjectivity; the founders should decide with eyes open |
 
-Design principles doing real work here:
-- **The rate attaches to the *work*, not the person.** A founder and an employee writing the same code earn the same rate — this is fixed requirement #2, mechanized. A junior employee doing management work gets the management rate for those hours.
-- **Vision and strategy get hours-at-a-rate, not a multiplier.** "Idea" premiums are the most-gamed and least-verifiable input (the critique literature's central warning). The idea-generation premium the academic evidence supports (idea generation predicts *unequal* splits and larger idea-holder shares — Hellmann & Wasserman 2017) is delivered instead through the bounded **Kicker**: the Contribution Committee may scale a person's quarterly points by 0.75–1.25× for demonstrated outsized (or deficient) impact, with written justification, recusal of the affected person, and publication to all members. Subjectivity capped at ±25%, on the record.
-- **Cash multiplier (4×) applies only to board-approved capital calls** — this closes the documented gaming vector of writing small opportunistic checks to farm the highest multiplier.
-- **Verification.** Going forward: contemporaneous logs in a shared system, submitted monthly, visible to all members (transparency is the mechanism the justice literature rewards), auditable against git/PR history, docs, and calendars; the Committee may reject unverifiable hours. Weekly cap of 60 loggable hours.
+### 5.4 Why transparency is load-bearing
 
-### 2.4 The Retrospective Reckoning (Year 1)
+The ledger, every participant's slices, and running percentages are visible to all
+participants by default. This is not a nicety: the single best causal result in the
+adjacent literature is that pay inequality suppresses output and attendance **only when
+coworker productivity is unobservable** [R-14]; dispersion that is explained and
+performance-based is neutral-to-positive [R-14b]; and perceived-justice spirals in
+founding teams run on whether the split's rationale is legible [R-4]. A secret ledger
+would recreate the exact pathology this design exists to cure.
 
-One-time application of the same formula to the founding year:
-1. Each person submits a quarter-by-quarter reconstruction of hours by category, with evidence (commit/PR history, design docs, meeting records, calendars).
-2. **Peer attestation:** each submission requires signatures from two other members with direct knowledge.
-3. **Haircuts for uncertainty:** hours with documentary evidence count at 100%; attested-but-undocumented hours at 75%; contested hours at 50% pending Committee resolution. Retroactive weekly cap: 60 hours.
-4. RiskMult = 2.0 applies to the whole unpaid year. The four past reserved-pool tranches are resolved against the same record (a founder who met the Activity Gate in 2 of 4 quarters has earned 0.625% and permanently lost 0.625%).
-5. Output: the opening ledger, ratified by 66⅔% of units, then **issued as equity within 30 days** (Move 2 timing, for the tax reasons in Part 0) with 83(b) elections where applicable.
+### 5.5 Handling the retroactive year
 
-A founder who did high-level business planning all year and a senior employee who shipped the product are both handled by the same arithmetic — worked example:
+One-time reconstruction (Art. VII): everyone submits monthly hours per workstream with
+evidence; contemporaneous artifacts (git, PRs, calendars, docs) credit at 100%,
+recollection-only at 50% [bracketed]; 60 h/week cap; same rates and multipliers as
+go-forward. An initial Ledger Committee including one outside independent scores it,
+publishes drafts, takes objections, and individual disputes go to fast-track arbitration
+without blocking everyone else. Precedent for retroactive credit: Cooley GO explicitly
+blesses "retroactive credit reflecting their respective periods of work before
+incorporation" when imposing vesting late [R-32].
 
-| Person | Y1 verified hours (rate band) | Cash | Raw points | Illustrative pool share |
-|---|---|---|---|---|
-| Founder A (active, mgmt+eng) | 2,000 @ $80 | $20,000 | (160,000×2)+(80,000) = 400,000 | 400,000/Σ |
-| Founder B (inactive since Q2) | 300 @ $64 | — | 38,400 | 38,400/Σ |
-| Employee 1 (senior eng, full-time) | 2,200 @ $80 | — | 352,000 | 352,000/Σ |
-| Employee 2 (eng, part-time) | 1,000 @ $64 | — | 128,000 | 128,000/Σ |
+### 5.6 Worked example (illustrative numbers — the spreadsheet is the spec)
 
-The intended and defensible result: **Employee 1 out-earns Founder B by ~9×** in the Contribution Pool, while Founder B keeps whatever reserved tranches they actually earned. That is the founders' stated bargain, made computable.
+Schedule B (illustrative; from published benchmarks [R-49], ÷2,080 h):
+SWE-L3 $67/h · SWE-L4 $82/h · SWE-L5 $106/h · EngMgr $115/h · Product/Biz lead $96/h ·
+ML research consultant (documented external rate [R-52]): $400/h.
 
-### 2.5 Inactive founders — the complete treatment
+Year-1 reconstruction (hours are post-evidence-weighting; ×2 non-cash multiplier; cash ×4):
 
-Every dimension, stated explicitly:
-- **Earned equity (reserved tranches earned + ledger points):** kept in full. We deliberately do not claw back earned equity; forfeiture-of-earned provisions are both a fairness violation (with the team-poisoning consequences Breugst et al. document) and a litigation magnet.
-- **Unearned reserved tranches:** lapse quarterly, automatically, forever (§2.2).
-- **Future ledger points:** none unless they contribute — self-executing.
-- **Governance:** no reserved board seat exists to lose; an inactive founder holds only their unit vote. Officer/committee roles require election or appointment.
-- **On departure:** company **call option at fair market value** (independent appraisal now; 409A value post-conversion) on all units, exercisable for 180 days — the standard dead-equity cure ([Perkins Coie](https://perkinscoie.com/insights/blog/dealing-dead-equity)). Payable over up to 3 years to protect cash. Not mandatory: the board may leave a cooperative ex-member on the cap table.
-- **Pre-committed investor re-vesting:** all members agree in advance (OA Art. VIII) to accept re-vesting of up to 25% of then-held equity over 2 years if the lead investor of the first priced round requires it — converting a common term-sheet fight into a signed pre-commitment.
-- **Restrictive covenants:** confidentiality + 12-month non-solicit for everyone. **No noncompete by default:** under M.G.L. c. 149 §24L, an employee noncompete requires garden-leave pay of 50% of salary or other mutually-agreed consideration and is capped at 12 months ([Beck Reed Riden](https://beckreedriden.com/the-massachusetts-noncompetition-agreement-act-massachusetts-general-laws-c-149-s-24l/); [mass.gov](https://www.mass.gov/info-details/mass-general-laws-c149-ss-24l)) — expensive and, for an unpaid team, incoherent. [Counsel: §24L's application to LLC *members* (vs employees/contractors) is unsettled; advise whether member-status noncompetes tied to the sale-of-business exception are worth the complexity. Flagged, not resolved.]
+| Person | Basis | Slices | % of slices |
+|---|---|---:|---:|
+| F1 (biz lead 60% / L5 40%, 2,300 h; +$20k expenses) | 2,300×$100×2 + 20,000×4 | 540,000 | 14.05% |
+| F2 (L5, 2,200 h) | 2,200×$106×2 | 466,400 | 12.14% |
+| F3 (EngMgr/L5 blend $110, 1,800 h) | 1,800×$110×2 | 396,000 | 10.30% |
+| F4 (L5, 700 h — semi-active) | 700×$106×2 | 148,400 | 3.86% |
+| F5 (L5, 350 h then inactive; +$5k cash) | 350×$106×2 + 5,000×4 | 94,200 | 2.45% |
+| E1 (L5, 2,000 h) | 2,000×$106×2 | 424,000 | 11.03% |
+| E2 (L4, 1,900 h) | 1,900×$82×2 | 311,600 | 8.11% |
+| E3 (L4, 1,700 h) | | 278,800 | 7.25% |
+| E4 (L3, 1,500 h) | | 201,000 | 5.23% |
+| E5 (L4, 1,400 h) | | 229,600 | 5.97% |
+| E6 (L3, 1,200 h) | | 160,800 | 4.18% |
+| E7 (L4, 1,000 h) | | 164,000 | 4.27% |
+| E8 (L3, 900 h) | | 120,600 | 3.14% |
+| E9 (L3, 800 h) | | 107,200 | 2.79% |
+| E10 (L3, 600 h) | | 80,400 | 2.09% |
+| Professor (150 h × $400) | 150×$400×2 | 120,000 | 3.12% |
+| **Total** | | **3,843,000** | 100% |
 
-### 2.6 The professor
+If (purely for illustration) a Freeze happened at month 12: founders F1–F3 have 12/36
+RFA months each (1.667% each), F4 has 6 (0.833%), F5 has 3 (0.417%) → RFA issued 6.25%,
+Contribution Pool 93.75%. Resulting fully-diluted:
 
-Facts: informally promised "a decent share," expects an above-market personal rate, is part-time, and is presumably a full-time Yale faculty member.
+| | Pool share | +RFA | **Total** |
+|---|---:|---:|---:|
+| F1 | 13.17% | 1.67% | **14.84%** |
+| F2 | 11.38% | 1.67% | **13.05%** |
+| F3 | 9.66% | 1.67% | **11.33%** |
+| F4 | 3.62% | 0.83% | **4.45%** |
+| F5 | 2.30% | 0.42% | **2.72%** |
+| E1 | 10.34% | — | **10.34%** |
+| E2–E10 | 38.34% | — | **38.34%** |
+| Professor | 2.93% | — | **2.93%** |
 
-**The rate question is answered by the system, not by status.** The Rate Table prices *work*; a person may petition for a premium rate only with **two independent written FMV benchmarks** for comparable work (e.g., documented ML-consulting engagements), Committee approval, and a **hard cap of 2× the base engineering rate (≤$128/hr)**. This rule is available to *everyone* — a star employee can invoke it too — so requirement #2 is preserved. What the professor cannot get is a rate premium *because he is a professor*.
-
-**Recommended offer — two tracks, his choice:**
-- **Track A (recommended): standard advisor grant.** 0.5% of fully-diluted equity, from the Advisor Pool, 2-year monthly vesting, 3-month cliff — squarely inside the FAST benchmark grid (strategic-level advisor at a post-idea-stage company: 0.3–0.5%; expert-level: up to 0.8% — [Founder Institute FAST](https://fi.co/fast), [FI overview](https://fi.co/insight/the-founder-institute-s-standard-advisor-agreement-for-startups-fast)). Uplift to 0.8% if he commits ≥10 hrs/month with named deliverables.
-- **Track B: compete in the Contribution Pool** under identical ledger rules at his benchmarked rate. Realistic yield at 5 hrs/week × $128/hr: meaningful but modest — which is the honest price signal for part-time involvement.
-- Either track is **conditioned on**: (1) a written agreement including a **release of all claims arising from the informal promise** — the oral "decent share" promise is a live promissory-estoppel/oral-contract risk that counsel must extinguish, not ignore; (2) **Yale COI clearance**: Yale caps consulting at one day per seven-day week, requires annual disclosure of external financial interests, and reviews faculty equity in startups under its COI policy, Appendix C ([Yale COI Policy](https://research-support.yale.edu/sites/default/files/2025-03/coi_policy_0.pdf); [Yale External Activities Guidance](https://provost.yale.edu/policies/external-professional-activities-guidance)); (3) **IP provenance reps**: Yale claims inventions made by its employees within employment scope or using Yale resources ([Yale Patent Policy](https://ventures.yale.edu/sites/default/files/2023-03/Yale_Patent_Policy.pdf)) — he must represent that his contributions use no Yale resources, students, or facilities, and assign all work product to the company. If his ML contributions are adjacent to his Yale lab's work, **counsel must clear provenance before any grant issues**; an unresolved Yale IP claim in the data room is a financing-killer.
-- If he declines both tracks: the company should absorb the awkwardness now rather than carry an unpriced oral claim into diligence. Total advisor exposure is capped by the 1% pool regardless.
-
-### 2.7 Investor-attractiveness checklist (requirement #3, consolidated)
-
-Delaware C-corp with QSBS-eligible stock at a $15M/10× cap ([Millan & Co.](https://millancpa.com/insights/section-1202-qualified-small-business-stock-qsbs-tax-guide)) · clean single-class cap table, no dead equity ≥10% ([ISA Ventures](https://isaventures.substack.com/p/dead-equity-on-your-cap-table-is)) · everyone vested/earned with 83(b)s on file · pre-committed re-vesting · standard 4/1-shaped schedules ([Carta](https://carta.com/learn/equity/stock-options/vesting/)) · Rule 701 equity plan ([Cooley GO](https://www.cooleygo.com/why-private-companies-should-know-about-rule-701-options-rsas-and-rsus/)) · ROFR, drag-along, tag-along in place · no oral equity promises outstanding · Wage Act exposure cured and documented · IP assignments from every contributor including the professor · a board with an investor seat and independent seat pre-architected.
+Note what the system does without anyone having to fight about it: the top employee
+out-owns two founders (identical terms, requirement 2); the inactive founder holds 2.7%,
+not the ~20% a static equal split would have fossilized — small enough that investors'
+dead-equity tolerance (~≤2% for departed contributors; 25–40% is a deal-killer [R-33])
+is nearly met even in the worst case; and the professor's "decent share" priced itself
+at ~2.9% via his own market rate and actual hours (§7).
 
 ---
 
-## Part 3 — Consolidated flags for counsel (decide-with-lawyer, not decided here)
+## 6. Founders: reserved allocations, inactivity, departures
 
-1. Wage Act cure mechanism and member-vs-employee characterization for each of the 15 people; assess and, if needed, remediate accrued Year-1 exposure (M.G.L. c. 149 §148; strict liability; personal officer liability).
-2. Independent-contractor ABC-test exposure for any non-member contributors.
-3. Securities exemptions for LLC unit issuances now (§4(a)(2)/Reg D; Rule 701 is corporation-era) and blue-sky filings; 15+ holders.
-4. Tax structuring of the Reckoning: capital interests vs. catch-up profits interests ([Rev. Proc. 93-27](https://www.irs.gov/pub/irs-drop/rp-01-43.pdf) line of authority); 83(b) timing; valuation support.
-5. MA→DE conversion mechanics (M.G.L. c. 156C; [mass.gov LLC law page](https://www.mass.gov/info-details/massachusetts-law-about-limited-liability-companies-and-limited-liability-partnerships)) and §1202 qualification at conversion (asset test, active-business test, redemption look-backs — redemptions near stock issuance can taint QSBS; sequence the FMV call option accordingly).
-6. §24L noncompete applicability to members; enforceability of the sealed-bid separation mechanism; arbitration clause scope for statutory wage claims (likely non-waivable).
-7. The professor: release of the oral promise; Yale COI and patent-policy clearance; invention assignment; whether any Yale-affiliated IP is already embedded in the product.
-8. 409A valuation cadence post-conversion; option plan adoption; Rule 701 disclosure thresholds if grants exceed $10M/12 months.
+### 6.1 The 5% reserved allocations (requirement 1)
+
+Each founder's 5% accrues **1/36 per month of Active Service (≥120 h/month)** over 36
+months, with retroactive credit for active Year-1 months, hard stop at month 36, no
+make-ups. Design logic:
+
+- *Why time-based accrual rather than milestones:* milestone vesting invites definitional
+  litigation; service-based vesting is the industry's convergent solution (92% of
+  venture-backed companies; 4-year/1-cliff standard [R-31]). Our 36 months + 12 months'
+  retroactive credit ≈ the standard 4-year total, matching Cooley's back-vesting pattern
+  [R-32].
+- *Why an activity threshold instead of mere employment:* "use it or lose it" is the
+  founders' own requirement; 120 h/month (~0.75 FTE) is the bracketed default defining
+  genuinely active.
+- *Why unearned RFA dissolves into the pool pro rata (not to other founders):* keeps the
+  founder class from having any collective interest in a colleague's failure, and
+  automatically rewards everyone actually working.
+
+### 6.2 Inactive founders — every dimension
+
+| Dimension | Treatment | Rationale |
+|---|---|---|
+| Past work | Paid in full through the retroactive ledger, same rate as anyone | Perceived-justice evidence [R-4]; removes the legitimate kernel of their claim |
+| Reserved 5% | Only months actually served accrue; window closes at month 36 | Requirement 1; dead-equity discipline [R-33][R-34] |
+| Future equity | Identical ledger access if they return to approved work | Identical-terms requirement; no punishment, no privilege |
+| Governance | No founder-qua-founder rights anywhere; board seats are elected annually | Founder-control valuation discount [R-13]; inactive vetoes are the failure mode |
+| Title | "Founder" is historical fact, not a legal status | — |
+| Buyout | None forced; earned units are theirs. For-cause misconduct → repurchase option at lower of ledger value/FMV | §6.4 |
+
+The result in numbers (worked example): a founder inactive since month 3 ends with ~2.7%
+— visible, defensible, and roughly at the edge of investor dead-equity tolerance [R-33],
+versus 20% under the original handshake.
+
+### 6.3 Why not claw back or strip votes
+
+We considered mandatory buybacks of earned units and vote-stripping for non-service
+members, and rejected both: earned-equity confiscation invites exactly the fiduciary/
+freeze-out litigation Massachusetts is famous for (close-corporation "utmost good faith
+and loyalty" duties extend to LLCs: *Donahue*, *Allison v. Eriksson* [R-43]), and it
+poisons the perceived-justice channel that keeps the eleven active people motivated
+[R-4]. Retention pressure comes from the RFA, refresh grants at conversion, and
+investor re-vesting — the standard stack [R-31][R-32].
+
+### 6.4 Departures
+
+Encoded in Art. X: no-fault leavers keep earned units and accrued RFA fraction (dead
+equity stays structurally small because nothing unearned exists to keep); for-cause
+leavers face repurchase of everything at the lower of ledger value or FMV; fraud forfeits
+2× falsified slices. This is deliberately softer than Slicing Pie's own recovery
+framework (which strips all non-cash slices from anyone resigning "without good reason"
+[R-45b]) — that regime is an enforceability and morale risk we flag rather than adopt
+**[bracketed for the founders: adopting full Slicing Pie recovery is defensible if
+counsel blesses it]**.
 
 ---
 
-## Part 4 — Threats to validity (what would change our design)
+## 7. The professor
 
-- If the team will **never** raise institutional capital, the C-corp conversion loses its main justification and an LLC with profits interests becomes the better tax answer. The design assumes requirement #3 means venture-scale financing.
-- The ledger's benefits depend on **administration actually happening** (monthly logs, quarterly cycles). If the team won't sustain that, a one-time negotiated split with standard 4/1 vesting — the boring answer — beats a decaying ledger. We rate this the single largest practical risk of our own design and mitigate it by sunsetting the ledger at the first financing.
-- All leadership-structure evidence is correlational; if the elected-board/single-CEO structure produces a leader the team won't follow, the annual mandate and election cycle are the designed-in correction mechanism.
+**Promise:** "a decent share," informally, expecting a higher rate than others.
+**Constraint:** requirement 2 says all non-RFA equity flows through one identical-terms
+system.
+
+**Resolution: his higher rate is real and objective — it is his market consulting rate.**
+PhD-level ML consulting bills $250–500/h (up to $1,000) [R-52] versus ~$67–115/h
+engineering rates; the identical *rules* price his hours at 3–5× everyone else's. In the
+worked example, 150 part-time hours already yield ~2.9% — more than 10× the median
+pre-seed advisor grant (0.21–0.275%, Carta, 20k+ advisors [R-53]) and above the FAST
+ceiling (1% for expert-level engagement at the earliest stage [R-54]). "Decent," by any
+market benchmark, and every basis point of it earned and auditable.
+
+Why not a special class or a fixed floor: (a) it breaks requirement 2 and re-opens every
+other side-deal; (b) market norms say special professor stakes are the canonical cap-table
+regret — advisor medians are ~0.05–0.28% by stage and falling [R-53], SAB norms for
+eminent scientists are 0.1–0.3% plus day-rate cash [R-55]; (c) the evidence that star
+names help is real but conditional — prominent affiliates accelerate IPOs and raise
+proceeds *when quality is opaque* (a Nobel affiliate was worth >$30M in early-biotech
+IPOs), and the signal decays as markets mature [R-60][R-61]; the benefits come from
+*engaged* stars doing real work with the team, not from names on decks [R-59]. Our
+system pays exactly for engagement, which is exactly what the evidence values.
+
+If he demands a guarantee anyway, the bracketed fallback (Art. XI.3) is a market-norm
+advisor option grant at the Freeze Event — 0.10–0.50%, 2-year monthly vesting, the Carta/
+FAST band [R-53][R-54] — approved by 66⅔% because it steps outside the system. Our
+recommendation: offer ledger participation + SAB-chair title; if he walks over a
+guarantee, the data say the company loses less than it thinks.
+
+**Counsel must clear (Art. XI.4):** Yale's one-day-per-seven-day-week consulting limit
+and restrictions on management roles [R-62]; Yale COI disclosure and management plans,
+including any involvement of his students [R-63]; Yale's patent policy asserting
+ownership of inventions made with significant university resources, with consulting
+inventions reportable to Yale Ventures (Yale's standard startup license itself takes
+3–5% of founder shares — a reason to keep the IP boundary bright) [R-64]; NIH/PHS rules
+making *any* equity in a private company a disclosable significant financial interest if
+he is on PHS-funded research [R-65]; and supersession of the informal promise (with
+promissory-estoppel exposure assessed).
+
+---
+
+## 8. Entity, tax, and the investor path
+
+**Recommendation: run the ledger inside the existing Massachusetts LLC for a bounded
+period, then convert to a Delaware C-corporation — deliberately early (target within
+6–12 months, at latest 24), not "when a term sheet forces it."**
+
+Why the LLC phase at all: the dynamic ledger is only tax-feasible in a partnership —
+quarterly issuances can be profits interests with no tax at grant (Rev. Proc. 93-27 /
+2001-43 [R-56]), whereas a corporation issuing stock quarterly against a moving ledger
+would create repeated taxable comp events [R-50]. The company is already an MA LLC and
+already needs a retroactive settlement computed *before* any conversion fixes percentages.
+
+Why convert early and definitively:
+
+1. **Investability.** VC funds structurally avoid LLCs (tax-exempt-LP UBTI [R-25]); the
+   NVCA document stack assumes a Delaware corporation [R-27]; ~88% of Carta C-corps are
+   Delaware [R-26]; standard SAFEs presume a corporation, and LLC-adapted SAFEs are
+   friction investors reject [R-35].
+2. **QSBS.** LLC interests can never be QSBS; the §1202 clock starts only at conversion.
+   Post-OBBBA (stock issued after July 4, 2025): 50%/75%/100% exclusion at 3/4/5 years,
+   $15M per-issuer cap (or 10× basis), $75M gross-asset ceiling [R-57]. Every month of
+   delay is a month of forfeited holding period for 15+ people. (The known counter-
+   argument — converting *later* at higher FMV enlarges the 10×-basis cap [R-57b] — is
+   real but second-order for a pre-revenue company against the certainty of starting the
+   clock; we flag it for counsel rather than resolve it.)
+3. **The partner-tax problem gets worse every quarter.** Anyone holding a profits
+   interest is a partner, not an employee — K-1s, self-employment tax, no W-2 (Rev. Rul.
+   69-184 [R-56b]). Running ~16 partners is manageable briefly and miserable at scale;
+   phantom-unit alternatives keep people W-2 but sacrifice capital-gains treatment
+   [R-56c]. Conversion dissolves the whole problem into ordinary equity comp under a
+   Rule 701 plan [R-44].
+4. **Mechanics (counsel):** Massachusetts provides no outbound statutory conversion of an
+   LLC into a (Delaware) corporation — c. 156C § 69 runs inbound-only — so the route is a
+   merger into a new DE corp (c. 156C §§ 59–63; >50% of unreturned contributions to
+   approve) or an interests-over §351 exchange per Rev. Rul. 84-111 [R-39][R-57c].
+   Counsel picks the method; the operating agreement pre-wires member consent (Art. XII)
+   so no one can hold up the financing.
+
+At conversion (a Freeze Event): the Art. VI.5 arithmetic fixes the cap table; a standard
+equity incentive plan is adopted (~15% initial pool; seed norms 10–15%, Carta median
+employee pool 12.1%, Index recommends 12.5–15% [R-31b][R-34b]); go-forward work is paid
+in salary + refresh grants, not ledger slices; and members have pre-committed to accept
+up to bounded investor re-vesting (investors typically want founders ≤~40% vested at
+Series A [R-32]). Double-trigger acceleration norms apply [R-31c].
+
+---
+
+## 9. Legal risk register (for counsel; ranked)
+
+1. **Wage Act / FLSA — severe, immediate** (§1 above; [R-36][R-37][R-38][R-40][R-41]).
+   Design assist: admitting all contributors as members with governance and information
+   rights strengthens (does not guarantee) a bona-fide-partner characterization — the
+   only FLSA carve-out found is the 20%+ owner-manager exemption [R-41b], which cannot
+   cover ten rank-and-file people. Counsel must drive: raise-and-pay plan, characterization
+   analysis, settlement/release strategy (Wage Act rights are not waivable "by special
+   contract" [R-36]), and whether "past services" recitals in grant paperwork create
+   admissions (no authority found either way — flagged, not resolved).
+2. **Securities compliance** for ~16 grantees: Rule 701 written-plan discipline and its
+   $10M/12-month disclosure trigger; Massachusetts blue-sky exemption to be confirmed
+   [R-44].
+3. **Tax mechanics:** profits-interest thresholds, protective 83(b)s (30-day,
+   non-extendable; IRS Form 15620 e-filing now available [R-58]), K-1 logistics,
+   §351/84-111 conversion, QSBS qualification at conversion [R-56][R-57].
+4. **IP chain of title:** confirmatory PIIAs back to inception from every contributor —
+   the most common early-stage diligence failure [R-66]; open-source audit; the
+   Yale/professor boundary (§7).
+5. **Massachusetts fiduciary overlay:** close-corporation duties extend to LLCs
+   (*Donahue* → *Allison*) [R-43]; MA does not clearly permit Delaware-style duty
+   elimination (c. 156C § 63 "expand or restrict" vs. 6 Del. C. § 18-1101(c)
+   "eliminate") [R-43b] — draft the settlement and any repurchases with minority-fairness
+   process; this is also a quiet extra argument for the Delaware conversion.
+6. **Restrictive covenants:** Massachusetts noncompetes require garden leave (≥50% of
+   highest base over prior 2 years) or other agreed consideration, cap at 12 months, and
+   fail entirely against people terminated without cause — rely on NDAs + nonsolicits
+   instead [R-67].
+7. **Housekeeping once payroll starts:** workers' comp, withholding, D&O/EPLI.
+
+---
+
+## 10. Where the evidence is thin, and where it disagrees (stated plainly)
+
+1. **No peer-reviewed test of dynamic equity exists.** Slicing Pie's support is
+   practitioner experience plus indirect theory [R-6][R-46]. We adopted it because the
+   founders' requirement 2 demands a contribution-metering system and it is the most
+   battle-tested one; not because science validates it.
+2. **The strongest practitioner voice disagrees with metering altogether.** YC's Seibel:
+   split near-equally, "99% of the work is left to be done" [R-24]. The Hellmann &
+   Wasserman result cuts the other way but is explicitly correlational — weak teams sort
+   into quick equal splits; nobody has shown re-splitting causes better outcomes [R-1].
+   Our freeze-and-convert ramp is the synthesis: metering for the unequal-commitment
+   bootstrap phase, the YC-style standard stack afterward.
+3. **Governance evidence is level-of-analysis-limited** (§4.2 close): team-level
+   meta-analyses, 8-firm case studies, and archival correlations. Rotating leadership has
+   no evidence base at all. We report the envelope honestly and chose the configuration
+   whose *failure modes* are best documented as avoidable.
+4. **Fairness evidence is from wages, not equity.** The Breza RCT and dispersion
+   literature [R-14][R-14b] concern pay; extrapolation to equity is plausible, untested.
+5. **The professor's signaling value is context-dependent.** Star-affiliation effects are
+   strongest exactly where this company sits (young, hard-to-evaluate deep tech) and
+   decay with market maturity [R-60][R-61]; evidence for *passive* name-advisors is
+   essentially nil (§7).
+6. **Numbers we could not verify** are bracketed in the operating agreement rather than
+   asserted (e.g., the 50% evidence discount, the 120 h/month threshold, the 10% audit
+   rate — these are design choices, not findings).
+7. **Verification limits:** all web sources were verified via live search-retrieved page
+   content because this environment's egress policy blocks direct page fetches; two
+   GitHub-hosted sources were fetched directly. Details per-source in
+   `plan-5-references.md`. We saw no other team's branch or content at any point.
+
+---
+
+## 11. Implementation sequence (90 days)
+
+| When | What |
+|---|---|
+| Week 0 | Engage MA employment counsel (Wage Act) + startup corporate counsel. Freeze all new oral promises. |
+| Weeks 1–2 | Founders resolve the [bracketed] decision points; adopt the Amended & Restated Operating Agreement; sign supersession acknowledgments; confirmatory PIIAs from everyone. |
+| Weeks 2–6 | Year-One reconstruction (Art. VII): submissions, committee scoring, objection window. Stand up the ledger tooling (a spreadsheet suffices; Pie Slicer-class software optional [R-45c]). |
+| Weeks 6–8 | Retroactive settlement units issued (profits interests + 83(b)s); board elected; CEO appointed; Schedule B rate table published; quarterly workstreams approved. |
+| Weeks 8–12 | Professor: Yale disclosures initiated, consulting agreement + ledger enrollment signed (or the bracketed advisor-grant fallback negotiated). Wage-mitigation plan (financing to fund minimum payroll) in motion. |
+| Months 6–12 | Delaware conversion executed per counsel (Art. XII); QSBS clock starts; Rule 701 plan + ~15% pool adopted. |
+
+*— plan5*

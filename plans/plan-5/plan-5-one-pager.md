@@ -1,38 +1,93 @@
-# plan5 — One-Pager: Governance & Equity for a Five-Founder Massachusetts LLC
+# Plan 5 — One-Pager: What We Found and What We Designed
 
-**Team:** plan5 · **Branch:** `plan-5` · **Date:** August 1, 2026
-**Isolation statement:** This work was produced on an empty orphan branch. We did not read, checkout, diff, or browse any other branch or any other team's files at any point.
+**For the five founders of a ~1-year-old Massachusetts LLC (5 founders, ~10 employees,
+all unpaid; informal reserved-allocation deal; an ML professor informally promised "a
+decent share").** Full rationale: `plan-5-design.md` · draft terms:
+`plan-5-operating-agreement.md` · sources & evidence ratings: `plan-5-references.md`.
 
----
+## The five findings that drive everything
 
-## What the research found (and how strong it is)
+1. **You have a legal emergency before you have an equity problem.** For-profit companies
+   cannot use volunteers (US DOL), equity cannot substitute for the $15/hr Massachusetts
+   minimum wage, and the MA Wage Act awards *mandatory treble damages plus attorney's
+   fees* — with **personal, even criminal, liability for whoever manages the LLC** (*Cook
+   v. Patient Edu*, 465 Mass. 548). Ten unpaid workers × one year is high-six-figure
+   exposure before trebling, and paying late doesn't cure it (*Reuter*, 489 Mass. 465).
+   First dollar of advice: employment counsel, this week.
 
-1. **Equal, hasty, or status-based splits are value-destroying.** In a study of 1,476 founders in 511 ventures, ~⅓ split equally; equal splitting — especially when negotiated quickly — is associated with *lower* pre-money valuations at first financing, with ~10% of firm equity at stake ([Hellmann & Wasserman 2017, *Management Science*](https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2474)). Evidence: peer-reviewed, correlational. This validates the founders' instinct to move to a contribution-based system.
+2. **Your team is living the documented failure pattern — and it's fixable.** ~73% of
+   teams split equity within a month, mostly immutably (Wasserman); quick equal splits
+   correlate with lower first-round valuations (Hellmann & Wasserman, *Mgmt Sci* 2017,
+   1,476 founders — correlational, honestly noted); >23% of cofounders are gone by year 3
+   (Carta, 45k startups). What actually poisons teams is *unexplained* inequality: a
+   field RCT (Breza et al., *QJE* 2018) shows reward gaps destroy output only when the
+   justification is unobservable. So the cure is a **transparent, evidence-based,
+   identical-rules ledger** — which is exactly what your requirement 2 demands anyway.
 
-2. **Perceived fairness of the split is a leading indicator of team survival.** A six-month multi-case study found equity splits perceived as unjust trigger self-reinforcing negative spirals in team interaction, with imprinting effects on venture outcomes ([Breugst, Patzelt & Rathgeber 2015, *J. Business Venturing*](https://www.sciencedirect.com/science/article/abs/pii/S0883902614000676)). Evidence: peer-reviewed, qualitative/small-N. Implication: the *process* (transparent ledger, objective rates, appeals) matters as much as the formula.
+3. **On governance, the evidence rejects both extremes.** Shared leadership helps teams
+   (3 meta-analyses, ρ≈.18–.35) but as a *complement* to a formal leader, in teams inside
+   organizations — not as a way to run a company; whole-company flatness has almost no
+   evidence and one famous rollback (Zappos, 18% buyout exodus). Equal power at the top
+   is the worst-documented configuration (deadlock literature; co-CEO studies find a
+   power *gap* helps). Fast, high-performing deciders gather wide input, then one
+   accountable person decides ("consensus with qualification," Eisenhardt). And founder
+   control itself is priced: each control dimension founders retain is associated with
+   17–22% lower pre-money valuation (Wasserman, *SMJ* 2017). **Design: an elected
+   3-person board → a removable, accountable CEO → empowered domain leads → a mandatory
+   consult-then-decide protocol. No founder birthrights, no vetoes, anywhere.**
 
-3. **Shared leadership helps as a behavior; flat structure hurts as a design.** Meta-analysis of 42 samples: shared leadership correlates positively with team effectiveness (ρ ≈ .34) ([Wang, Waldman & Zhang 2014, *J. Applied Psychology*](https://pubmed.ncbi.nlm.nih.gov/24188392/)); startup-specific evidence agrees ([Ensley, Hmieleski & Pearce 2006, *Leadership Quarterly*](https://www.sciencedirect.com/science/article/abs/pii/S1048984306000051)). But flat startups suffer "haphazard execution and commercial failure" ([Lee 2022, *Strategic Management Journal*](https://sms.onlinelibrary.wiley.com/doi/abs/10.1002/smj.3333)), and co-CEO evidence is thin and survivorship-biased (87 public firms; [Feigen et al. 2022, HBR](https://hbr.org/2022/07/is-it-time-to-consider-co-ceos)). **Our synthesis: one accountable CEO, chosen on merit and removable by the board, with broad delegated decision rights — not co-CEOs, not rotation, not consensus.**
+4. **A contribution ledger can be objective enough for a spreadsheet — if you price
+   roles, not brilliance.** We adapt the only battle-tested framework for unpaid,
+   uneven-commitment teams (Slicing Pie): **slices = hours × published-benchmark market
+   rate for the role × 2 (cash × 4)**; units issue quarterly, one per slice; your
+   percentage = your units ÷ all units. Coding, management, and vision all count — as
+   hours at the benchmarked rate of that role; ideas as such earn zero. Year 1 is
+   reconstructed once from evidence (git, calendars, docs; unevidenced hours haircut).
+   Honesty note: **no peer-reviewed test of dynamic equity exists**, and YC explicitly
+   prefers near-equal splits — we adopt metering because your requirements demand it,
+   and we bolt on every known patch (rate benchmarking, hour caps, audits, attestation,
+   repose, and a hard end date).
 
-4. **Founders who cling to control have less valuable stakes.** Founders retaining both the CEO seat and board control held stakes worth ~52% of those who gave up both ([Wasserman, "The Founder's Dilemma," HBR 2008](https://hbr.org/2008/02/the-founders-dilemma)). Startup boards start entrepreneur-controlled and add independents as mediators ([Ewens & Malenko, *J. Finance* 2025](https://www.nber.org/papers/w27769)). Evidence: peer-reviewed, correlational.
+5. **Investability is a conversion date, not a vibe.** VC infrastructure presumes a
+   Delaware C-corp (NVCA docs; ~88% of Carta C-corps are DE; LLC pass-throughs trigger
+   UBTI for funds' LPs; SAFEs assume a corporation). QSBS now excludes 50/75/100% of gain
+   at 3/4/5 years with a $15M cap — but only for *stock*, and the clock starts at
+   conversion. Dead equity is a named deal-killer (a departed cofounder at 25–40% kills
+   rounds). **Design: run the ledger in the LLC briefly (profits interests, no tax at
+   grant), then convert early — target 6–12 months — into a DE C-corp with a ~15% pool,
+   standard 4-year vesting, and pre-agreed bounded investor re-vesting.**
 
-5. **"Dead equity" is a documented fundraising killer.** VCs flag cap tables where ≥10% sits with non-contributors ([Perkins Coie](https://perkinscoie.com/insights/blog/dealing-dead-equity)). Standard cure: vesting/earn-in (4-year, 1-year cliff is the norm — [Carta](https://carta.com/learn/equity/stock-options/vesting/)), FMV buybacks, transfer restrictions.
+## The design in six lines
 
-6. **Two legal landmines dominate everything else.** (a) *Massachusetts Wage Act:* ~10 unpaid employees = strict liability, treble damages, personal liability for managing officers; equity-for-wages "special contracts" are unenforceable ([Mass. Wage Law](https://masswagelaw.com/startup-companies-and-unpaid-wages/); [Gunderson Dettmer](https://www.gunder.com/en/news-insights/insights/massachusetts-employers-immediately-liable-for-triple-damages-and-attorneys-fees-for-wage-act-violations)). (b) *Yale professor:* one-day-a-week consulting cap, mandatory COI disclosure, and Yale's claim to inventions made with Yale resources ([Yale COI Policy](https://research-support.yale.edu/sites/default/files/2025-03/coi_policy_0.pdf); [Yale Patent Policy](https://ventures.yale.edu/sites/default/files/2023-03/Yale_Patent_Policy.pdf)).
+- **Equity:** ≥75% Contribution Pool (identical terms for everyone) + ≤25% Reserved
+  Founder Allocations (5% each, accruing 1/36 per month actually served, window closes at
+  month 36; unearned RFA dissolves into the pool).
+- **Inactive founders:** past work paid in full at the same rates as everyone; future
+  accrual only while active; no confiscation, no privileges. Worked example: a founder
+  inactive since month 3 ends near 2.7% instead of a fossilized 20%.
+- **Employees:** become real members with votes, information rights, and ledger upside —
+  in the worked example the top employee out-owns two founders, which is requirement 2
+  working as intended.
+- **The professor:** same system, honestly priced — his "higher rate" is his documented
+  market consulting rate ($250–500/hr class), which at real part-time hours yields ~2–3%,
+  i.e., 10× the median advisor grant (Carta median pre-seed advisor: ~0.21–0.28%). No
+  special class, no floor; optional bracketed fallback of a 0.10–0.50% advisor grant at
+  market norms. Yale's one-day-a-week rule, COI disclosure, and patent policy go to
+  counsel before he signs anything.
+- **Decisions:** CEO decides operations after mandatory consultation; board majority for
+  significant matters; 66⅔% of units for fundamental ones; 75% to touch the equity engine;
+  disputes go mediation → binding arbitration; no individual veto exists.
+- **Counsel's urgent list:** Wage Act strategy (above all), Rule 701/blue-sky for ~16
+  grantees, profits-interest + 83(b) mechanics, confirmatory IP assignments back to day
+  one, the MA-merger-into-Delaware route (MA has no outbound statutory conversion), and
+  Massachusetts's close-corporation-grade fiduciary duties (*Donahue* line) around the
+  whole settlement.
 
-## The design in six sentences
+**Evidence honesty in one sentence:** the legal constraints are primary-source solid; the
+governance and equity-split evidence is meta-analytic-to-correlational and we say which is
+which; dynamic equity itself is practitioner-grade with zero peer-reviewed validation —
+we chose it because your fixed requirements demand contribution metering, and we designed
+the exit ramp so the experiment ends before investors ever price it.
 
-1. **Fix the Wage Act problem first** (convert contributors to bona fide members or start paying minimum wage — counsel's call on mechanism), then run a one-time **Retrospective Reckoning** of Year 1 contributions, then **convert to a Delaware C-corp** to capture investor expectations and the post-OBBBA $15M QSBS exclusion, whose clock starts only at conversion ([Holland & Knight](https://www.hklaw.com/en/insights/publications/2025/08/conversion-of-partnership-and-llc-interests-into-qualified); [MGO](https://www.mgocpa.com/perspective/qsbs-converting-llc-scorp-before-sale/)).
-2. **Equity = 25% Founder Reserved Pool + ~74% Contribution Pool + ~1% Advisor Pool.** Each founder's 5% is earned in 16 quarterly tranches gated on verified activity — miss a quarter, that tranche cancels permanently into the Contribution Pool (use-it-or-lose-it, as required).
-3. **The Contribution Pool is a unit-ledger system** — points = verified hours × published role-based market rate (BLS-anchored, e.g., $64/hr for software engineering = $133,080/2,080, [BLS OEWS May 2024](https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm)) × 2.0 non-cash risk multiplier (4.0 for cash), identical for founders and employees, adapted from the Slicing Pie dynamic-equity model ([Moyer](https://slicingpie.com/wp-content/uploads/2016/09/Slicing-Pie-Handbook-FREE-SAMPLE.pdf)) with anti-gaming fixes for its documented weaknesses ([Equity Matrix critique](https://equitymatrix.io/blog/slicing-pie-problems)).
-4. **Inactive founders keep every unit they earned and forfeit nothing vested** — but unearned reserved tranches lapse, a company FMV call option applies on departure, and everyone pre-commits to investor-standard re-vesting at the first priced round.
-5. **The professor gets no status-based rate**: either he competes in the Contribution Pool at a rate set by the same benchmark rules as everyone (premium only with two independent FMV benchmarks, hard-capped at 2× the top internal band), or he takes a standard advisor grant of 0.4–0.8% on FAST benchmarks ([Founder Institute FAST](https://fi.co/fast)) — conditioned on a written release of the informal "decent share" promise, Yale COI clearance, and IP provenance reps.
-6. **Governance: 3-seat elected board (no founder-status seats), single CEO on an annual board-renewed mandate, supermajority (66⅔%) reserved matters, a 3-person Contribution Committee running the ledger, and a dispute ladder of negotiation → mediation → AAA arbitration, with sealed-bid auction (not a shotgun clause, which favors the richer party — [KPPB Law](https://www.kppblaw.com/can-shotgun-clauses-save-or-sink-your-llc-or-corporation-a-closer-look-at-this-legal-tool/)) as the last-resort separation mechanism.**
-
-## Where the evidence is honestly weak
-
-- Shared-leadership and equal-split findings are **correlational**; no RCTs exist. Co-CEO outperformance is a tiny, survivorship-biased sample.
-- Slicing Pie multipliers (2×/4×) are **practitioner convention, not derived from data**; we adopt them for legibility and adjust for known gaming vectors.
-- The dynamic-equity model has essentially **no peer-reviewed outcome evidence**; our confidence rests on the fairness-perception literature plus its procedural transparency.
-- Quantifying "vision" contributions objectively is an unsolved problem; we bound the subjectivity (±25% peer-reviewed kicker) rather than pretend it away.
-
-**Deliverables:** [`plan-5-design.md`](plan-5-design.md) (full framework), [`plan-5-operating-agreement.md`](plan-5-operating-agreement.md) (business-terms draft for counsel), [`plan-5-references.md`](plan-5-references.md) (annotated bibliography with evidence-strength ratings).
+*— plan5 (sources verified via live search-retrieved content; direct fetches blocked by
+the research environment — method details in `plan-5-references.md`)*
