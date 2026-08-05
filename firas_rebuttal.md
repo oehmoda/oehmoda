@@ -61,12 +61,30 @@ Published diligence standards list "founders owning less than investors combined
 
 **"We can rebalance at the round with top-up grants."** Top-ups come from the new option pool at investor discretion, are taxed as compensation, and require renegotiating with whoever just out-earned the founders. The evidence on post-signing renegotiation is unambiguous: it [almost never succeeds](https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2474), because the advantaged side holds a veto.
 
-## Recommendation
+## Recommendation: a two-pool structure that fixes the class split
 
-1. **Run the backfill projection before ratification.** The plan already specifies the method; produce the projected ownership table and decide on facts.
-2. **Adopt a target now: founders collectively at 50–60% at the seed round** — the market-median position. If the projection lands below it, adjust the set-aside/pool ratio before signing, while it is a parameter change rather than a renegotiation.
+Replace the single shared pool with **separate pools per class**, keeping the contribution formula inside each:
 
-The plan's contribution-based core should stand — it is right, and it is our commitment to the team. This memo asks only that we control the one number investors will read first.
+| Layer | Size | Who | Mechanics |
+|---|---|---|---|
+| Founder base | 20% | 4 cofounders, 5% each | Earned monthly while active (as in the current plan) |
+| Cofounder contribution pool | 40% | Cofounders only | Same slice formula, competed among cofounders |
+| Employee contribution pool | 40% | Employees only | Same slice formula, competed among employees |
+
+What this achieves:
+
+- **The founder class holds 60% by construction.** The investor-visible number is no longer an unknowable output of the ledger — it is a term of the agreement. The uncertainty problem this memo describes disappears.
+- **The earn-it principle survives intact.** Nobody is granted anything; every share in every layer is still earned by documented contribution. Within each class, the fairness mechanics are unchanged.
+- **Forfeitures stay within their class.** An inactive cofounder's unearned equity flows to the *cofounder* pool (certified by the Independent Manager, since the remaining cofounders benefit from the ruling). This preserves the 60% guarantee.
+- **The employee offer remains exceptional.** A 40% employee pool is roughly three times the market norm of 12.1% ([Carta](https://carta.com/data/founder-ownership-2026/)) — now bounded and explainable to investors instead of open-ended.
+
+Open decisions to settle at ratification:
+
+1. **Calibration.** 60% pre-round becomes roughly 46–48% after a standard seed round (~20% dilution plus option-pool refresh) — clear of every red-flag floor, but below the 56% post-seed median. A founder class of 65–70% (employee pool 30–35%) would match the median trajectory. Decide which posture we want.
+2. **The fifth partner's slot.** Does the incoming equal partner receive his own 5% base (making the base 25%), a share of the cofounder pool only, or both? Any answer works if written; an unwritten answer is a future dispute.
+3. **Run the backfill regardless.** The class split no longer depends on it, but the split *within* each pool still does — and the employees should see their projected numbers before signing, for the same procedural-fairness reasons the plan itself cites.
+
+This memo's ask is unchanged in spirit: control the one number investors read first, before it is a term we would have to renegotiate.
 
 ---
 
