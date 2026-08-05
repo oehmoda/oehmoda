@@ -80,6 +80,20 @@ Every path clears the catastrophic floors — but the current plan's *best* case
 
 Post-round outcome at a standard ~20% seed with the reserve absorbing the pool requirement: founder class ~48%, employees ~20%, new investors ~20%, pool ~12% — unusual but explainable in one sentence: *the team worked unpaid for a year and earned it under audited rules.*
 
+## What investors will see at the round
+
+If we adopt this structure and clear the readiness list, the pro-forma at a standard ~20% seed round reads:
+
+| Holder | Post-seed |
+|---|---|
+| Cofounders (4, active, fully vested schedules) | ~48% |
+| — of which the CEO individually | ~13–16% |
+| Employees (5, earned under audited rules) | ~20% |
+| Unallocated option pool (from our reserve) | ~12% |
+| Seed investors | ~20% |
+
+And the diligence packet behind it: an audited contribution ledger where every percent traces to logged work or bank records; 100% of equity on vesting schedules; **zero dead equity by construction**; signed IP assignments from every past and present contributor; no outstanding oral promises (professor and fifth partner papered); wage compliance remediated with counsel; one designated CEO with a meaningful personal stake. Most seed-stage companies can show two or three of these. A company that can show all of them has turned its cap table from a diligence risk into a closing argument.
+
 ## Both tails are company risks
 
 The goal is the company's best odds, which means avoiding two failure modes: **founders too thin** (below ~50% pre-round → every raise needs us to be the exception, and the CEO's line invites the motivation question) and **employees too thin** (for a nine-person company running on unpaid work, losing two engineers over equity resentment is as lethal as a failed round). The floor-and-collar addresses both symmetrically: employees keep a pool ~2× the market norm with identical earning rules, founders accept a hard cap, and the reserve — not any person — absorbs every adjustment. The floor's cost is bounded and visible; the downside it prevents is not.
@@ -107,8 +121,9 @@ True. Exceptions pay for unusual cap tables with exceptional traction. Volunteer
 2. **Paper the professor** (~1% advisor grant conditional on Yale COI/IP clearance) **and the fifth partner** (5% base with pool offset, or cofounder-pool-only — written either way).
 3. **Extend the freeze trigger** to cover SAFEs and add a date-certain backstop.
 4. **Adopt the floor-and-collar structure** (20/40/25/15, forfeitures to reserve, 50–65% band) in the ratified agreement.
-5. **Run the backfill and publish the first pro-forma freeze cap table** — then quarterly. Decide any remaining calibration on those numbers, as a team.
-6. **Reconcile all plan documents** to the restructured team (4 cofounders, 5 employees) before anything is signed.
+5. **Designate exactly one CEO at ratification** — the plan requires it, and investors read that person's individual line first. Verify in the backfill projection that the CEO's stake lands in the mid-to-high teens at freeze; if it doesn't, fix it with the reserve before the round, not during it.
+6. **Run the backfill and publish the first pro-forma freeze cap table** — then quarterly. Decide any remaining calibration on those numbers, as a team.
+7. **Reconcile all plan documents** to the restructured team (4 cofounders, 5 employees) before anything is signed.
 
 ---
 
