@@ -9,13 +9,23 @@
 
 ## Summary
 
-The proposed equity plan is strong: everything vests, inactive founders forfeit automatically, and every share traces to documented work. Those are real assets in diligence. But the plan leaves one critical variable uncontrolled: **the founders' combined ownership at the seed round.** It could land at 60% — or at 40%. Nobody can compute it today. The evidence below shows that founder ownership in the **50–60% range at seed measurably benefits the company** — its valuation, its ability to raise this round, and its ability to raise the *next two*. The fix costs nothing if adopted before we sign, and is nearly impossible after.
+The proposed equity plan is strong: everything vests, inactive founders forfeit automatically, and every share traces to documented work. Those are real assets in diligence. But the plan leaves one critical variable uncontrolled: **the founders' combined ownership at the seed round.** It could land above 60% — or below 50%. Nobody can compute it today. The evidence below shows that founder ownership in the **50–60% range at seed measurably benefits the company** — its valuation, its ability to raise this round, and its ability to raise the *next two*. The fix costs nothing if adopted before we sign, and is nearly impossible after.
 
 ## Why the number is uncontrolled
 
-- Each founder's 5% reserve (25% combined) is a **ceiling, not a grant** — earned monthly, only while active; unearned portions flow into the shared pool.
-- The remaining 75% is earned by founders and ~10 employees under identical rules. Ten full-time contributors will out-log three to five founders on hours; the rate table is deliberately compressed (max 1.5×), so headcount dominates.
-- The result: founder ownership at the freeze is an *output* of a ledger that does not exist yet. We would be ratifying a contract whose most investor-visible consequence is unknown.
+Current team: four cofounders, a fifth partner joining on equal terms, and five employees.
+
+- Each founder-side member's 5% reserve (25% combined) is a **ceiling, not a grant** — earned monthly, only while active; unearned portions flow into the shared pool.
+- The remaining 75% is earned by the founder side and the five employees under identical rules. With five contributors on each side and a deliberately compressed rate table (max 1.5×), roughly **half the pool is in play for the employees** — hours decide it, not titles.
+- Where we land is therefore driven almost entirely by **founder activity**. Rough projections at comparable hours:
+
+| Scenario | Founders' projected total at freeze |
+|---|---|
+| All five founder-side members stay active | ~62% — healthy |
+| One goes inactive | ~56% — at the median |
+| Two go inactive | ~48% — below the line, and falling each quarter |
+
+- The result: founder ownership at the freeze is an *output* of a ledger that does not exist yet. We would be ratifying a contract whose most investor-visible consequence is unknown — and history says inactivity is not hypothetical for us.
 
 ## The evidence that 50–60% at seed benefits the company
 
@@ -37,7 +47,7 @@ The largest academic study of founder equity splits ([Hellmann & Wasserman, *Man
 Agency theory ([Jensen & Meckling, *Journal of Financial Economics* 1976](https://www.sciencedirect.com/science/article/pii/0304405X7690026X)) and its startup-era evidence ([Fahlenbrach, *Journal of Empirical Finance* 2009](https://ideas.repec.org/a/eee/empfin/v16y2009i1p136-150.html): founder-CEO-led firms outperform in long-run returns) support the same mechanism investors act on: **companies run by people with large personal stakes perform better**, because the owners' wealth rides on the outcome. That is precisely why seed investors screen for it. (Scope caveat: these studies cover public firms — but they are why the private-market norm exists.)
 
 **4. Investor practice confirms the mechanism.**
-Published diligence standards list "founders owning less than investors combined" among **deal-killers** ([Startup Law Blog](https://www.thestartuplawblog.com/cap-table-management-founders-guide/); [Equity Matrix](https://equitymatrix.io/blog/what-investors-look-for-in-cap-tables)); VCs want departed founders reduced to [single digits](https://www.saastr.com/how-vcs-think-about-departed-co-founder-equity-stakes/); and the median employee pool at seed is **12.1%** ([Carta](https://carta.com/data/founder-ownership-2026/)) versus a plausible 25–35% under our plan — a structure no investor has a pattern for. None of this is fatal by itself; all of it converts into valuation discount, extra diligence, or a pass.
+Published diligence standards list "founders owning less than investors combined" among **deal-killers** ([Startup Law Blog](https://www.thestartuplawblog.com/cap-table-management-founders-guide/); [Equity Matrix](https://equitymatrix.io/blog/what-investors-look-for-in-cap-tables)); VCs want departed founders reduced to [single digits](https://www.saastr.com/how-vcs-think-about-departed-co-founder-equity-stakes/); and the median employee pool at seed is **12.1%** ([Carta](https://carta.com/data/founder-ownership-2026/)) versus a plausible ~30–38% under our plan (five employees earning roughly half the pool) — a structure no investor has a pattern for. None of this is fatal by itself; all of it converts into valuation discount, extra diligence, or a pass.
 
 ## Anticipated objections
 
