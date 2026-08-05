@@ -45,6 +45,14 @@ Because an hour is not just an hour — *when* it was worked and *what was stake
 3. **Investors underwrite the founders specifically.** The market's revealed structure — median founders at 56%, median employee pool at 12.1% ([Carta](https://carta.com/data/founder-ownership-2026/)) — is not tradition; it is thousands of investors pricing who must still be there, fully committed, in year eight. A cap table that doesn't distinguish founders from employees tells investors we don't either.
 4. **Fairness is preserved where fairness belongs.** Within each pool, contribution still decides everything: a cofounder who slacks loses to cofounders who deliver; an employee who excels out-earns every other employee. The class split prices risk, liability, and permanence — things hours cannot measure. The pools price effort — the thing hours measure well. Each mechanism does the job it is actually suited for.
 
+## What the company gains
+
+This is not founders protecting founders. The structure serves the company on three counts:
+
+1. **A higher valuation.** The ~10%-of-company-value penalty for badly structured splits ([Hellmann & Wasserman](https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2474)) is paid by the *company* at its first financing — every holder, employee and founder alike, absorbs it. A clean, market-standard structure is free money at the round.
+2. **Access to capital — the thing companies actually die from.** Startups don't fail because a percentage was set wrong; they fail when the next round doesn't close. Founder ownership headroom is what keeps Series A and Series B raisable. Securing it now is buying the company's future ability to fund itself.
+3. **Everyone's shares become worth more — including the employees'.** The team's ~40–45% only turns into money if the company can raise, grow, and exit. A slightly larger share of a company that can't fund itself is worth less than a bounded share of one that can. And the employee offer remains far beyond anything the market pays: the median seed-stage employee pool is 12.1% ([Carta](https://carta.com/data/founder-ownership-2026/)) — ours is roughly triple that, still earned on pure contribution. Keeping the company fundable *is* the pro-employee position.
+
 ## The proposal
 
 | Layer | Size | How it's earned |
