@@ -2,121 +2,123 @@
 
 **Memo to:** The Founding Team
 **From:** Firas
-**Re:** A gap in the proposed equity plan that affects our ability to raise — and a low-cost fix
-**Date:** August 2026
+**Re:** Sequencing our seed-round readiness, and fixing the one cap-table variable our plan leaves uncontrolled
+**Date:** August 2026 · **v2** — revised after an independent investor-perspective review; this version corrects the dilution model, adds CEO-level numbers, and ranks the ownership question inside the full readiness list.
 
 ---
 
 ## Summary
 
-The proposed equity plan is strong: everything vests, inactive founders forfeit automatically, and every share traces to documented work. Those are real assets in diligence. But the plan leaves one critical variable uncontrolled: **the founders' combined ownership at the seed round.** The best case barely reaches the market median (~56%); realistic cases fall to 48% or below. Nobody can compute it today. The evidence below shows this number affects the company directly — its valuation, its ability to raise this round and the next two, and the motivation of everyone building it. Both extremes are company risks: founders too thin undermines fundability and leadership staying power; employees too thin breaks the deal that brought five people to build unpaid. The evidence supports a **founder class of 55–65% before the round, set deliberately** — a fix that costs nothing if adopted before we sign, and is nearly impossible after.
+Our equity plan is strong where most startups are weak: everything vests, inactive people stop earning automatically, and every share traces to documented work. But we are not seed-ready, and the ownership question this memo raises is **fourth** on the list, not first. Items one through three are legal exposures that could kill a round outright; item four — the subject of this memo — is that the founders' combined ownership at the freeze is an *output of a ledger nobody has computed*, with realistic outcomes landing well below what funded companies look like. The fix proposed here is a **floor-and-collar**: the founder class lands between 50% and 65%, trued up through a neutral reserve, with contribution mechanics preserved inside every layer. It binds founders in both directions, costs nothing if our projections come out fine, and is nearly impossible to add after signatures.
 
-## Why the number is uncontrolled
+## The seed-readiness list, in the order investors will read it
 
-Current team: **four cofounders and five employees.** (A fifth person has been promised to join as an equal partner; his exact slot is an open decision — see Recommendation.)
+1. **Wage compliance — before any signatures.** Nine people have worked unpaid for a year in Massachusetts. The Wage Act carries mandatory treble damages and *personal* liability for managing founders, and equity cannot legally substitute for wages. Counsel must restructure who is a member/partner versus an employee, and quantify the lookback. Our own plan documents flag this; it has to be workstream #1.
+2. **Paper the two oral promises.** A professor was promised "a decent share" (with university IP and conflict-of-interest exposure attached), and a fifth person was promised "equal partnership." Undocumented equity promises are the classic eight-figure diligence killer (Snap paid Reggie Brown $157.5M). Both need written agreements — the professor's conditioned on Yale COI/IP clearance — before we ratify anything.
+3. **Fix the freeze trigger.** The ledger freezes at a "priced round" — but seed money now usually arrives via SAFEs, which the trigger ignores. Extend it: cumulative financing threshold, change of control, or a date-certain backstop.
+4. **Control the founder-ownership outcome.** The rest of this memo.
 
-- Each cofounder's 5% reserve (**20% combined**) is a **ceiling, not a grant** — earned monthly, only while active; unearned portions flow into the shared pool.
-- The remaining 80% is earned by cofounders and employees under identical rules. With four cofounders against five employees and a deliberately compressed rate table (max 1.5×), **the employees are the majority of contributors** — hours decide the split, not titles.
-- Where we land is therefore driven almost entirely by **founder activity**. Rough projections at comparable hours:
+## Why the founder number is uncontrolled today
 
-| Scenario | Cofounders' projected total at freeze |
-|---|---|
-| All four cofounders stay active | ~56% — at the median, with no margin |
-| One goes inactive | ~48% — below the line |
-| Two go inactive | ~38% — deep in red-flag territory |
+Current team: **four cofounders and five employees.** (Older plan documents model five founders and fifteen people; every document should be reconciled to the restructured team before ratification.)
 
-- The result: founder ownership at the freeze is an *output* of a ledger that does not exist yet. Even the *best case* only just reaches the market median — and history says inactivity is not hypothetical for us.
+- Each cofounder's 5% reserve (**20% combined**) is a ceiling, not a grant — earned monthly while active; unearned portions flow into the shared pool.
+- The remaining **80%** is earned by cofounders and employees under identical rules. With five employees against four cofounders and a deliberately compressed rate table (max 1.5×), hours decide the split.
 
-## The evidence that 50–60% at seed benefits the company
+Projected cofounder class at the freeze (pre-round), with sensitivity on relative hours:
 
-**1. The dilution ladder — this is arithmetic, not opinion.**
-Median founder ownership across 45,000+ startups ([Carta](https://carta.com/data/founder-ownership-2026/)): **56.2% after seed → 36.1% after Series A → 23% after Series B.** Each round takes roughly 20 points plus option-pool refreshes. Now run the same ladder starting from 40% instead of 56%:
-
-| | Median company | Us, if founders exit the ledger at ~40% |
-|---|---|---|
-| After seed | 56% | ~40% |
-| After Series A | 36% | ~22% |
-| After Series B | 23% | ~12% |
-
-Series A funds underwrite founder motivation and typically want the founding team well clear of [15–20% combined as a floor](https://qubit.capital/blog/cap-table-mistakes-series-a) — *after* their round, with Series B still to come. Starting the ladder at 40% doesn't just look weak at seed; it **mathematically forecloses the later rounds the company will need**. Low founder ownership is a compounding liability, and seed is the only place to set the starting rung.
-
-**2. Peer-reviewed evidence: badly structured splits lower the company's valuation.**
-The largest academic study of founder equity splits ([Hellmann & Wasserman, *Management Science* 2016](https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2474); 1,476–3,782 founders) finds that splits set without regard to contribution and negotiation are associated with **significantly lower pre-money valuations at the first financing** — the estimated penalty is on the order of ~10% of the company's equity value. Investors don't just dislike odd ownership structures; they *pay less for companies that have them*. (Correlational, as the authors note — but it is the best data that exists, and it runs entirely in one direction.)
-
-**3. Ownership concentration in operators predicts performance — the oldest result in corporate finance.**
-Agency theory ([Jensen & Meckling, *Journal of Financial Economics* 1976](https://www.sciencedirect.com/science/article/pii/0304405X7690026X)) and its startup-era evidence ([Fahlenbrach, *Journal of Empirical Finance* 2009](https://ideas.repec.org/a/eee/empfin/v16y2009i1p136-150.html): founder-CEO-led firms outperform in long-run returns) support the same mechanism investors act on: **companies run by people with large personal stakes perform better**, because the owners' wealth rides on the outcome. That is precisely why seed investors screen for it. (Scope caveat: these studies cover public firms — but they are why the private-market norm exists.)
-
-**4. Investor practice confirms the mechanism.**
-Published diligence standards list "founders owning less than investors combined" among **deal-killers** ([Startup Law Blog](https://www.thestartuplawblog.com/cap-table-management-founders-guide/); [Equity Matrix](https://equitymatrix.io/blog/what-investors-look-for-in-cap-tables)); VCs want departed founders reduced to [single digits](https://www.saastr.com/how-vcs-think-about-departed-co-founder-equity-stakes/); and the median employee pool at seed is **12.1%** ([Carta](https://carta.com/data/founder-ownership-2026/)) versus a plausible ~40–45% under our plan (five employees earning more than half the pool) — a structure no investor has a pattern for. None of this is fatal by itself; all of it converts into valuation discount, extra diligence, or a pass.
-
-## Picking the number: both tails are company risks
-
-The goal is not to maximize founder share — it is to give the company its best odds. That means avoiding *two* failure modes, not one:
-
-- **Founder class too low (below ~50% pre-round):** post-seed ownership lands in the low 40s, Series A arrives near the comfort floor, and every raise requires being the exception. This is the fundability tail.
-- **Founder class too high (above ~70%):** the employee pool stops being a credible offer, and for a nine-person company running on unpaid work, losing two engineers over equity resentment is as lethal as a failed round. This is the retention tail.
-
-Running the median company's round-over-round dilution against our options:
-
-| Founder class pre-round | Post-seed | Post-Series A | Post-Series B |
+| Scenario | Equal hours | Founders log 1.25× | Founders log 1.5× |
 |---|---|---|---|
-| 55% | ~44% | ~28% | ~18% |
-| 60% | ~48% | ~31% | ~20% |
-| Median funded company | 56% | 36% | 23% |
+| All four cofounders active | ~56% | ~60% | ~64% |
+| One cofounder inactive | ~48% | ~52% | ~55% |
+| Two cofounders inactive | ~38% | ~42% | ~45% |
 
-Both 55% and 60% clear every hard floor at every stage; both run below the median trajectory — a headwind, not a wall. The marginal five points matter less than two things: that the number is **chosen deliberately** rather than emerging from the ledger by accident, and that the remaining points are **allocated with intent** (at 55%, the freed points belong in the unassigned reserve — future hires build the company; the current employee pool is already about twice the market norm).
+Now translate honestly to **post-round** — because the current plan has no reserve, a seed round costs ~20% *plus* a 10–15% option pool investors require us to create before their money ([standard mechanics](https://carta.com/learn/startups/equity-management/option-pool/); seed dilution data: [Carta](https://carta.com/data/state-of-private-markets-q1-2025/)):
 
-## Anticipated objections
+- **Best case** (all active, equal hours): 56% at freeze → **~39–41% post-seed**, versus the funded-company median of **56.2%** ([Carta, 45,000+ startups](https://carta.com/data/founder-ownership-2026/)).
+- Even the most founder-favorable sensitivity (1.5× hours) lands ~45% post-seed — still ~11 points under the median.
+- **The CEO's line — the first number investors actually read:** at equal hours the CEO holds ~14% at freeze → **~10% post-seed → ~6–7% by Series A**. For a four-founder company, low-teens post-seed is defensible; single digits invites the motivation question in every partner meeting.
 
-**"The founders may well land above 50% anyway."** Possibly — nobody knows, and that is the problem. If the projection is fine, a floor costs nothing. If it is low, the floor is the difference between a fundable cap table and a broken one. There is no scenario in which the floor harms the company.
+To be precise about what this is: none of these outcomes *forecloses* fundraising — corrected round-over-round math (see below) keeps even weak cases above the hard floors. The problem is that we would **enter every round below the median with no cushion, by accident rather than by decision** — and that nobody, today, can tell the team which row of this table we are living in.
 
-**"Medians are not requirements; strong traction raises anyway."** True. Exceptions pay for unusual cap tables with exceptional traction. Volunteering to need an exception is not a strategy.
+The plan does contain a patch — a leadership floor (CEO + top two at ~30% at freeze, topped up from the new option pool). It is insufficient for this problem: it triggers only at the round, from a pool investors control, with tax friction, in exactly the negotiation we should not be having then.
 
-**"Wasserman shows founder control correlates with lower valuations."** That result concerns *control* — board seats and the CEO chair — not economic ownership, and the same research program (point 2 above) shows badly structured *economics* lowering valuations. The two findings coexist: cede control gradually, keep economics meaningful.
+## The evidence, corrected
 
-**"Adjusting now is unfair to employees."** Nothing is signed; the plan itself mandates fixing rules before computing individual outcomes. A floor changes the pool's size, not its rules — employees still earn under identical terms and still finish far above the 12% market norm. And employee equity only becomes valuable if the company can raise: a fundable cap table is the pro-employee position.
+**1. The dilution ladder.** Dilution is multiplicative, not additive. From Carta's medians: seed→A retains ×0.64, A→B retains ×0.64 ([Carta](https://carta.com/data/founder-ownership-2026/)):
 
-**"We can rebalance at the round with top-up grants."** Top-ups come from the new option pool at investor discretion, are taxed as compensation, and require renegotiating with whoever just out-earned the founders. The evidence on post-signing renegotiation is unambiguous: it [almost never succeeds](https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2474), because the advantaged side holds a veto.
+| Post-seed position | Post-Series A | Post-Series B |
+|---|---|---|
+| 39% (our best case, current plan) | ~25% | ~16% |
+| 48% (proposed structure) | ~31% | ~20% |
+| 56% (median company) | 36% | 23% |
 
-## Recommendation: a two-pool structure that fixes the class split
+Every path clears the catastrophic floors — but the current plan's *best* case reaches Series B where the median company sits two full rounds earlier. "No cushion" is the accurate description.
 
-Replace the single shared pool with **separate pools per class**, keeping the contribution formula inside each:
+**2. Split structure affects what investors pay.** The largest study of founder splits ([Hellmann & Wasserman, *Management Science* 2016](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1805427); 3,700+ founders) finds that splits set without deliberate negotiation are associated with a valuation penalty around **10% of firm equity value** at first financing. Read carefully, it cuts both ways: it argues for deciding *deliberately and now* — and it warns against fixing shares *detached from contribution*, which is why the proposal below keeps contribution mechanics inside every layer and routes forfeitures to a neutral reserve rather than to anyone's windfall.
+
+**3. The mechanism investors act on.** Operators with large personal stakes perform better — agency theory ([Jensen & Meckling 1976](https://www.sciencedirect.com/science/article/pii/0304405X7690026X)) and founder-CEO performance evidence ([Fahlenbrach 2009](https://ideas.repec.org/a/eee/empfin/v16y2009i1p136-150.html); public-firm scope, honestly noted). This is why seed investors screen the CEO's line first.
+
+**4. Market practice.** Carta's platform data (the strongest source available): median founding team 56.2% post-seed, 36.1% post-A; median employee pool at seed **12.1%** ([report](https://carta.com/data/founder-ownership-2026/)). Practitioner commentary consistently treats founders below investors combined, and large inactive stakes, as diligence flags ([SaaStr on departed founders](https://www.saastr.com/how-vcs-think-about-departed-co-founder-equity-stakes/); [Equity Matrix](https://equitymatrix.io/blog/what-investors-look-for-in-cap-tables) — practitioner sources, weighted accordingly).
+
+## Proposed structure: floor-and-collar with a neutral reserve
 
 | Layer | Size | Who | Mechanics |
 |---|---|---|---|
-| Founder base | 20% | 4 cofounders, 5% each | Earned monthly while active (as in the current plan) |
+| Founder base | 20% | 4 cofounders, 5% each | Earned monthly while active |
 | Cofounder contribution pool | 40% | Cofounders only | Same slice formula, competed among cofounders |
-| Employee contribution pool | 25% | Current employees | Same slice formula, competed among employees; a ceiling — anything unearned at the freeze rolls into the reserve |
-| Unassigned reserve | 15% | Future hires | Held unissued; converts into the option pool investors will require at the priced round |
+| Employee contribution pool | 25% | Current employees | Same slice formula; a ceiling — unearned portions roll to the reserve |
+| Neutral reserve | 15% | Company | Future hires; converts into the option pool at the round; balancing layer for the floor-and-collar |
 
-What this achieves:
+**The rules that make it defensible:**
 
-- **The founder class holds 60% by construction.** The investor-visible number is no longer an unknowable output of the ledger — it is a term of the agreement. The uncertainty problem this memo describes disappears.
-- **The earn-it principle survives intact.** Nobody is granted anything; every share in every layer is still earned by documented contribution. Within each class, the fairness mechanics are unchanged.
-- **Forfeitures stay within their class.** An inactive cofounder's unearned equity flows to the *cofounder* pool (certified by the Independent Manager, since the remaining cofounders benefit from the ruling). This preserves the 60% guarantee.
-- **The employee offer remains exceptional.** A 25% pool for five people (~4–6% each) is roughly double the market norm of 12.1% for an entire seed-stage employee pool ([Carta](https://carta.com/data/founder-ownership-2026/)), and multiples of the 1.5–2% a first key hire typically receives — justified by their unpaid year, bounded, and explainable to investors.
-- **The reserve pre-pays a known bill.** Investors standardly require a 10–15% option pool created *before* their money comes in, diluting existing holders. A pre-carved 15% reserve simply becomes that pool — the requirement costs the team nothing extra at the round.
+1. **All forfeitures — founder and employee alike — route to the neutral reserve.** Nobody's inactivity enriches a teammate. This preserves the current plan's single best diligence story ("dead equity is structurally zero") and removes the conflict of interest in inactivity rulings (certified by the Independent Manager).
+2. **Floor and collar at the freeze:** if the active founder class would hold under **50%**, it is trued up from the reserve; anything above **65%** flows back to the reserve. The band binds founders in *both* directions — this is a stabilizer, not a founder giveaway.
+3. **Everything still has to be earned.** No layer is a grant; the formula, logging, and vesting mechanics are unchanged inside each class.
+4. **The arithmetic closes in every case.** If the fifth partner takes a 5% base, the cofounder pool drops to 35% (class ceiling unchanged at 60%). The professor's advisor grant (~1%, conditional on Yale clearance) and the Independent Manager's ~0.5% come from the reserve. Total is 100% under all outcomes.
+5. **A pro-forma freeze cap table is published every quarter.** The "nobody can compute it" problem disappears at zero political cost — everyone, employee or founder, watches the same projection move.
 
-Open decisions to settle at ratification:
+Post-round outcome at a standard ~20% seed with the reserve absorbing the pool requirement: founder class ~48%, employees ~20%, new investors ~20%, pool ~12% — unusual but explainable in one sentence: *the team worked unpaid for a year and earned it under audited rules.*
 
-1. **Calibration within the 55–65% band.** With the reserve absorbing the option-pool requirement: 55% → ~44% post-round, 60% → ~48%, 65% → ~52% (the median look). All three are viable; lower positions trade fundraising margin for team generosity or reserve depth. If the class is set at 55%, route the freed points to the reserve (making it 20%) rather than the employee pool. Decide the posture as a team, on these numbers.
-2. **The fifth partner's slot.** Does the incoming equal partner receive his own 5% base (making the base 25%), a share of the cofounder pool only, or both? Any answer works if written; an unwritten answer is a future dispute.
-3. **Run the backfill regardless.** The class split no longer depends on it, but the split *within* each pool still does — and the employees should see their projected numbers before signing, for the same procedural-fairness reasons the plan itself cites.
+## Both tails are company risks
 
-This memo's ask is unchanged in spirit: control the one number investors read first, before it is a term we would have to renegotiate.
+The goal is the company's best odds, which means avoiding two failure modes: **founders too thin** (below ~50% pre-round → every raise needs us to be the exception, and the CEO's line invites the motivation question) and **employees too thin** (for a nine-person company running on unpaid work, losing two engineers over equity resentment is as lethal as a failed round). The floor-and-collar addresses both symmetrically: employees keep a pool ~2× the market norm with identical earning rules, founders accept a hard cap, and the reserve — not any person — absorbs every adjustment. The floor's cost is bounded and visible; the downside it prevents is not.
+
+## Anticipated objections
+
+**"This is self-serving — you're proposing it before the backfill, exactly what the plan's veil-of-ignorance rule prohibits."**
+Deciding class sizes *before* anyone sees their individual number **is** the veil of ignorance. Every cofounder faces the same uncertainty inside the cofounder pool; the collar caps our upside as firmly as the floor protects our downside; and forfeitures now flow to a neutral reserve instead of to remaining founders. I am proposing a rule I cannot tune to my own benefit — that is the definition of the veil, not a violation of it.
+
+**"The employees were promised the same terms as founders."**
+Within their pool, terms are identical: same formula, same rates, same evidence standards. Nothing is signed yet — this is the designed moment for setting parameters — and the offer remains roughly double the market-norm pool with upside no salaried startup matches. What changes is bounded class sizes, which is also what makes their equity *fundable* — and their equity is worth nothing if the company can't raise.
+
+**"You might land fine anyway — why change?"**
+Maybe we do. Then the floor never triggers, the collar never triggers, and the only thing we bought is a quarterly projection everyone can see. The cost of the mechanism in the good scenarios is zero; the cost of its absence in the bad ones is the round.
+
+**"We can fix a thin founder position at the round with top-up grants."**
+Top-ups come from the investors' pool, need their consent, carry tax friction, and happen in the exact negotiation where we have the least leverage — while renegotiating a signed split rarely succeeds because the advantaged side holds a veto ([Hellmann & Wasserman](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1805427)). A floor written today needs no one's permission later.
+
+**"Medians aren't rules; traction forgives cap tables."**
+True. Exceptions pay for unusual cap tables with exceptional traction. Volunteering to need an exception — by accident — is not a strategy.
+
+## Recommendation
+
+1. **Start counsel-led wage remediation now** — it gates everything, including the signatures below.
+2. **Paper the professor** (~1% advisor grant conditional on Yale COI/IP clearance) **and the fifth partner** (5% base with pool offset, or cofounder-pool-only — written either way).
+3. **Extend the freeze trigger** to cover SAFEs and add a date-certain backstop.
+4. **Adopt the floor-and-collar structure** (20/40/25/15, forfeitures to reserve, 50–65% band) in the ratified agreement.
+5. **Run the backfill and publish the first pro-forma freeze cap table** — then quarterly. Decide any remaining calibration on those numbers, as a team.
+6. **Reconcile all plan documents** to the restructured team (4 cofounders, 5 employees) before anything is signed.
 
 ---
 
 ## Sources
 
 - [Carta Founder Ownership Report 2026](https://carta.com/data/founder-ownership-2026/) · [2025](https://carta.com/data/founder-ownership/) — 45,000+ startups: founders 56.2% post-seed, 36.1% post-A, 23% post-B; employee pool 12.1% at seed.
-- [Hellmann & Wasserman, "The First Deal," *Management Science* 63(8), 2016](https://pubsonline.informs.org/doi/10.1287/mnsc.2016.2474) ([NBER version](https://www.nber.org/papers/w16922)) — split structure and lower first-financing valuations; failure of post-hoc renegotiation.
-- [Jensen & Meckling, "Theory of the Firm," *Journal of Financial Economics* 3(4), 1976](https://www.sciencedirect.com/science/article/pii/0304405X7690026X) — ownership by operators reduces agency costs.
-- [Fahlenbrach, "Founder-CEOs, Investment Decisions, and Stock Market Performance," *Journal of Empirical Finance* 16(1), 2009](https://ideas.repec.org/a/eee/empfin/v16y2009i1p136-150.html) — founder-led firms outperform.
-- [EquityList, Founder Ownership by Round](https://www.equitylist.co/blog-post/founder-ownership-by-round) — ~70% entering seed; ~50% expectation at Series A.
-- [CRV, Startup Equity Structure Explained (2026)](https://www.crv.com/content/startup-equity-structure) — retain ≥50% through seed.
-- [Qubit Capital, Cap Table Mistakes That Kill Your Series A](https://qubit.capital/blog/cap-table-mistakes-series-a) — 15–20% Series A founder floor; structural red flags.
-- [Equity Matrix, What Investors Look for in Cap Tables](https://equitymatrix.io/blog/what-investors-look-for-in-cap-tables) · [Startup Law Blog, Cap Table Management](https://www.thestartuplawblog.com/cap-table-management-founders-guide/) — diligence deal-killers.
-- [SaaStr, How VCs Think About Departed Co-Founder Equity](https://www.saastr.com/how-vcs-think-about-departed-co-founder-equity-stakes/) — departed founders at single digits.
-- [Ron Pragides, How Big Should Your Option Pool Be?](https://mr-p.medium.com/how-big-should-your-option-pool-be-5164e6cfcc0) — ESOP norms 10%, up to 20%.
-- This repo: [`implementation-plan.md`](implementation-plan.md) §1–2 · [`merit-formula-and-rate-table.md`](merit-formula-and-rate-table.md) — ceiling, forfeiture, and identical-terms mechanics.
+- [Carta, State of Private Markets](https://carta.com/data/state-of-private-markets-q1-2025/) — seed-round dilution ~20%.
+- [Carta, Option Pool mechanics](https://carta.com/learn/startups/equity-management/option-pool/) — pre-money pool creation.
+- [Hellmann & Wasserman, "The First Deal," *Management Science* 63(8) 2016](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1805427) ([NBER w16922](https://www.nber.org/papers/w16922)) — ~10%-of-equity valuation penalty for non-deliberative splits; stickiness of signed splits.
+- [Jensen & Meckling, *JFE* 1976](https://www.sciencedirect.com/science/article/pii/0304405X7690026X) — agency costs and operator ownership.
+- [Fahlenbrach, *J. Empirical Finance* 2009](https://ideas.repec.org/a/eee/empfin/v16y2009i1p136-150.html) — founder-CEO firm performance (public-firm scope).
+- Practitioner commentary (weighted as such): [SaaStr on departed-founder equity](https://www.saastr.com/how-vcs-think-about-departed-co-founder-equity-stakes/) · [Equity Matrix on cap-table diligence](https://equitymatrix.io/blog/what-investors-look-for-in-cap-tables) · [Qubit Capital on Series A cap-table mistakes](https://qubit.capital/blog/cap-table-mistakes-series-a).
+- This repo: [`implementation-plan.md`](implementation-plan.md) (incl. §2 leadership floor, Wage Act flag) · [`merit-formula-and-rate-table.md`](merit-formula-and-rate-table.md) (formula, §1b counsel flags, §6b professor) · [TechCrunch on Snap/Reggie Brown](https://techcrunch.com/2017/02/02/snapchat-reggie-brown/).
