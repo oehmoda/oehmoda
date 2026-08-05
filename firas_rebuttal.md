@@ -69,18 +69,20 @@ Replace the single shared pool with **separate pools per class**, keeping the co
 |---|---|---|---|
 | Founder base | 20% | 4 cofounders, 5% each | Earned monthly while active (as in the current plan) |
 | Cofounder contribution pool | 40% | Cofounders only | Same slice formula, competed among cofounders |
-| Employee contribution pool | 40% | Employees only | Same slice formula, competed among employees |
+| Employee contribution pool | 25% | Current employees | Same slice formula, competed among employees; a ceiling — anything unearned at the freeze rolls into the reserve |
+| Unassigned reserve | 15% | Future hires | Held unissued; converts into the option pool investors will require at the priced round |
 
 What this achieves:
 
 - **The founder class holds 60% by construction.** The investor-visible number is no longer an unknowable output of the ledger — it is a term of the agreement. The uncertainty problem this memo describes disappears.
 - **The earn-it principle survives intact.** Nobody is granted anything; every share in every layer is still earned by documented contribution. Within each class, the fairness mechanics are unchanged.
 - **Forfeitures stay within their class.** An inactive cofounder's unearned equity flows to the *cofounder* pool (certified by the Independent Manager, since the remaining cofounders benefit from the ruling). This preserves the 60% guarantee.
-- **The employee offer remains exceptional.** A 40% employee pool is roughly three times the market norm of 12.1% ([Carta](https://carta.com/data/founder-ownership-2026/)) — now bounded and explainable to investors instead of open-ended.
+- **The employee offer remains exceptional.** A 25% pool for five people (~4–6% each) is roughly double the market norm of 12.1% for an entire seed-stage employee pool ([Carta](https://carta.com/data/founder-ownership-2026/)), and multiples of the 1.5–2% a first key hire typically receives — justified by their unpaid year, bounded, and explainable to investors.
+- **The reserve pre-pays a known bill.** Investors standardly require a 10–15% option pool created *before* their money comes in, diluting existing holders. A pre-carved 15% reserve simply becomes that pool — the requirement costs the team nothing extra at the round.
 
 Open decisions to settle at ratification:
 
-1. **Calibration.** 60% pre-round becomes roughly 46–48% after a standard seed round (~20% dilution plus option-pool refresh) — clear of every red-flag floor, but below the 56% post-seed median. A founder class of 65–70% (employee pool 30–35%) would match the median trajectory. Decide which posture we want.
+1. **Calibration.** With the reserve absorbing the option-pool requirement, a 60% founder class becomes ~48% after a standard ~20% seed round — clear of every red-flag floor, but below the 56% post-seed median. Shifting to 65% founder class / 25% employees / 10% reserve yields ~52% post-round, matching the median trajectory. Decide which posture we want.
 2. **The fifth partner's slot.** Does the incoming equal partner receive his own 5% base (making the base 25%), a share of the cofounder pool only, or both? Any answer works if written; an unwritten answer is a future dispute.
 3. **Run the backfill regardless.** The class split no longer depends on it, but the split *within* each pool still does — and the employees should see their projected numbers before signing, for the same procedural-fairness reasons the plan itself cites.
 
