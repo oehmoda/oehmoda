@@ -13,10 +13,11 @@ Our equity plan is strong where most startups are weak: everything vests, inacti
 
 ## The seed-readiness list, in the order investors will read it
 
-1. **Wage compliance — before any signatures.** Nine people have worked unpaid for a year in Massachusetts. The Wage Act carries mandatory treble damages and *personal* liability for managing founders, and equity cannot legally substitute for wages. Counsel must restructure who is a member/partner versus an employee, and quantify the lookback. Our own plan documents flag this; it has to be workstream #1.
-2. **Paper the two oral promises.** A professor was promised "a decent share" (with university IP and conflict-of-interest exposure attached), and a fifth person was promised "equal partnership." Undocumented equity promises are the classic eight-figure diligence killer (Snap paid Reggie Brown $157.5M). Both need written agreements — the professor's conditioned on Yale COI/IP clearance — before we ratify anything.
-3. **Fix the freeze trigger.** The ledger freezes at a "priced round" — but seed money now usually arrives via SAFEs, which the trigger ignores. Extend it: cumulative financing threshold, change of control, or a date-certain backstop.
-4. **Control the founder-ownership outcome.** The rest of this memo.
+1. **Employment and wage compliance, per jurisdiction — before any signatures.** Fifteen people have worked unpaid time for a Massachusetts LLC over the company's life — nine current, six departed — spread across **Massachusetts, Texas, the UK, and India**. Each person's *local* law governs: the MA Wage Act (mandatory treble damages, *personal* liability for managing founders) for MA-based workers; federal FLSA for Texas; UK national-minimum-wage rules; Indian employment law. Equity cannot legally substitute for wages in any of these. The sharpest exposure is the **departed** workers — current teammates rarely sue; removed ones do — and wage claims generally cannot be waived by a simple release. Counsel must structure the lookback and the settlement payments together, jurisdiction by jurisdiction. Workstream #1.
+2. **Settle the six departures in writing.** Two departed members contributed real work: compute their share with the **same backfill formula as everyone else** — nobody negotiates, the ledger decides — then prefer a **cash buyout at today's independently supported (near-nominal) valuation** over leaving them on the cap table; settling now is when fair is also affordable. If equity must remain: funded from the reserve, combined single digits, votes proxied, drag-along bound. Two contributed minimally — the formula will price that honestly (likely a token amount; pay it, it is cheap insurance). Two never started and receive nothing. **All six sign separation agreements with releases and IP-assignment confirmations** — six undocumented departures is six open claims.
+3. **Paper the two oral promises.** A professor was promised "a decent share" (with university IP and conflict-of-interest exposure attached), and a fifth person was promised "equal partnership." Undocumented equity promises are the classic eight-figure diligence killer (Snap paid Reggie Brown $157.5M). Both need written agreements — the professor's conditioned on Yale COI/IP clearance — before we ratify anything.
+4. **Fix the freeze trigger.** The ledger freezes at a "priced round" — but seed money now usually arrives via SAFEs, which the trigger ignores. Extend it: cumulative financing threshold, change of control, or a date-certain backstop.
+5. **Control the founder-ownership outcome.** The rest of this memo.
 
 ## Why the founder number is uncontrolled today
 
@@ -77,6 +78,7 @@ Every path clears the catastrophic floors — but the current plan's *best* case
 3. **Everything still has to be earned.** No layer is a grant; the formula, logging, and vesting mechanics are unchanged inside each class.
 4. **The arithmetic closes in every case.** If the fifth partner takes a 5% base, the cofounder pool drops to 35% (class ceiling unchanged at 60%). The professor's advisor grant (~1%, conditional on Yale clearance) and the Independent Manager's ~0.5% come from the reserve. Total is 100% under all outcomes.
 5. **A pro-forma freeze cap table is published every quarter.** The "nobody can compute it" problem disappears at zero political cost — everyone, employee or founder, watches the same projection move.
+6. **Distributed-team mechanics (MA / TX / UK / India).** Two decisions the rate table and unit classes must answer at ratification: **(a)** whether Rate-Card benchmarks are geo-adjusted or a single global rate — this materially moves accrual for non-US teammates and is a fairness call to make openly, once; **(b)** non-US residents should hold **phantom units tracking the ledger** rather than direct LLC interests until the Delaware conversion — direct holdings make them US K-1 taxpayers and trigger home-country rules (India FEMA/RBI, UK HMRC). IP assignments must be executed in local-law-valid form for each jurisdiction, or they do not actually protect us.
 
 Post-round outcome at a standard ~20% seed with the reserve absorbing the pool requirement: founder class ~48%, employees ~20%, new investors ~20%, pool ~12% — unusual but explainable in one sentence: *the team worked unpaid for a year and earned it under audited rules.*
 
@@ -92,7 +94,7 @@ If we adopt this structure and clear the readiness list, the pro-forma at a stan
 | Unallocated option pool (from our reserve) | ~12% |
 | Seed investors | ~20% |
 
-And the diligence packet behind it: an audited contribution ledger where every percent traces to logged work or bank records; 100% of equity on vesting schedules; **zero dead equity by construction**; signed IP assignments from every past and present contributor; no outstanding oral promises (professor and fifth partner papered); wage compliance remediated with counsel; one designated CEO with a meaningful personal stake. Most seed-stage companies can show two or three of these. A company that can show all of them has turned its cap table from a diligence risk into a closing argument.
+And the diligence packet behind it: an audited contribution ledger where every percent traces to logged work or bank records; 100% of equity on vesting schedules; **zero dead equity by construction**; signed, locally-valid IP assignments from every past and present contributor in every jurisdiction; all six departures settled with releases; no outstanding oral promises (professor and fifth partner papered); employment compliance remediated with counsel across MA, TX, UK, and India; one designated CEO with a meaningful personal stake. Most seed-stage companies can show two or three of these. A company that can show all of them has turned its cap table from a diligence risk into a closing argument.
 
 ## Both tails are company risks
 
@@ -117,13 +119,14 @@ True. Exceptions pay for unusual cap tables with exceptional traction. Volunteer
 
 ## Recommendation
 
-1. **Start counsel-led wage remediation now** — it gates everything, including the signatures below.
-2. **Paper the professor** (~1% advisor grant conditional on Yale COI/IP clearance) **and the fifth partner** (5% base with pool offset, or cofounder-pool-only — written either way).
-3. **Extend the freeze trigger** to cover SAFEs and add a date-certain backstop.
-4. **Adopt the floor-and-collar structure** (20/40/25/15, forfeitures to reserve, 50–65% band) in the ratified agreement.
-5. **Designate exactly one CEO at ratification** — the plan requires it, and investors read that person's individual line first. Verify in the backfill projection that the CEO's stake lands in the mid-to-high teens at freeze; if it doesn't, fix it with the reserve before the round, not during it.
-6. **Run the backfill and publish the first pro-forma freeze cap table** — then quarterly. Decide any remaining calibration on those numbers, as a team.
-7. **Reconcile all plan documents** to the restructured team (4 cofounders, 5 employees) before anything is signed.
+1. **Start counsel-led employment/wage remediation now, across all four jurisdictions** (MA, TX, UK, India; current and departed workers) — it gates everything, including the signatures below.
+2. **Settle all six departures in writing** — same-formula numbers for the two real contributors (cash buyout at today's near-nominal valuation preferred), token settlements for the two minimal ones, releases and IP confirmations from all six.
+3. **Paper the professor** (~1% advisor grant conditional on Yale COI/IP clearance) **and the fifth partner** (5% base with pool offset, or cofounder-pool-only — written either way).
+4. **Extend the freeze trigger** to cover SAFEs and add a date-certain backstop.
+5. **Adopt the floor-and-collar structure** (20/40/25/15, forfeitures to reserve, 50–65% band) in the ratified agreement, with the distributed-team mechanics above (rate-card geography decision; phantom units for non-US residents).
+6. **Designate exactly one CEO at ratification** — the plan requires it, and investors read that person's individual line first. Verify in the backfill projection that the CEO's stake lands in the mid-to-high teens at freeze; if it doesn't, fix it with the reserve before the round, not during it.
+7. **Run the backfill covering all fifteen past and present contributors, and publish the first pro-forma freeze cap table** — then quarterly. Decide any remaining calibration on those numbers, as a team.
+8. **Reconcile all plan documents** to the restructured team (4 cofounders, 5 employees, six settled departures) before anything is signed.
 
 ---
 
