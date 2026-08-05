@@ -9,7 +9,7 @@
 
 ## Summary
 
-The proposed equity plan is strong: everything vests, inactive founders forfeit automatically, and every share traces to documented work. Those are real assets in diligence. But the plan leaves one critical variable uncontrolled: **the founders' combined ownership at the seed round.** The best case barely reaches the market median (~56%); realistic cases fall to 48% or below. Nobody can compute it today. The evidence below shows that founder ownership in the **50–60% range at seed measurably benefits the company** — its valuation, its ability to raise this round, and its ability to raise the *next two*. The fix costs nothing if adopted before we sign, and is nearly impossible after.
+The proposed equity plan is strong: everything vests, inactive founders forfeit automatically, and every share traces to documented work. Those are real assets in diligence. But the plan leaves one critical variable uncontrolled: **the founders' combined ownership at the seed round.** The best case barely reaches the market median (~56%); realistic cases fall to 48% or below. Nobody can compute it today. The evidence below shows this number affects the company directly — its valuation, its ability to raise this round and the next two, and the motivation of everyone building it. Both extremes are company risks: founders too thin undermines fundability and leadership staying power; employees too thin breaks the deal that brought five people to build unpaid. The evidence supports a **founder class of 55–65% before the round, set deliberately** — a fix that costs nothing if adopted before we sign, and is nearly impossible after.
 
 ## Why the number is uncontrolled
 
@@ -49,6 +49,23 @@ Agency theory ([Jensen & Meckling, *Journal of Financial Economics* 1976](https:
 **4. Investor practice confirms the mechanism.**
 Published diligence standards list "founders owning less than investors combined" among **deal-killers** ([Startup Law Blog](https://www.thestartuplawblog.com/cap-table-management-founders-guide/); [Equity Matrix](https://equitymatrix.io/blog/what-investors-look-for-in-cap-tables)); VCs want departed founders reduced to [single digits](https://www.saastr.com/how-vcs-think-about-departed-co-founder-equity-stakes/); and the median employee pool at seed is **12.1%** ([Carta](https://carta.com/data/founder-ownership-2026/)) versus a plausible ~40–45% under our plan (five employees earning more than half the pool) — a structure no investor has a pattern for. None of this is fatal by itself; all of it converts into valuation discount, extra diligence, or a pass.
 
+## Picking the number: both tails are company risks
+
+The goal is not to maximize founder share — it is to give the company its best odds. That means avoiding *two* failure modes, not one:
+
+- **Founder class too low (below ~50% pre-round):** post-seed ownership lands in the low 40s, Series A arrives near the comfort floor, and every raise requires being the exception. This is the fundability tail.
+- **Founder class too high (above ~70%):** the employee pool stops being a credible offer, and for a nine-person company running on unpaid work, losing two engineers over equity resentment is as lethal as a failed round. This is the retention tail.
+
+Running the median company's round-over-round dilution against our options:
+
+| Founder class pre-round | Post-seed | Post-Series A | Post-Series B |
+|---|---|---|---|
+| 55% | ~44% | ~28% | ~18% |
+| 60% | ~48% | ~31% | ~20% |
+| Median funded company | 56% | 36% | 23% |
+
+Both 55% and 60% clear every hard floor at every stage; both run below the median trajectory — a headwind, not a wall. The marginal five points matter less than two things: that the number is **chosen deliberately** rather than emerging from the ledger by accident, and that the remaining points are **allocated with intent** (at 55%, the freed points belong in the unassigned reserve — future hires build the company; the current employee pool is already about twice the market norm).
+
 ## Anticipated objections
 
 **"The founders may well land above 50% anyway."** Possibly — nobody knows, and that is the problem. If the projection is fine, a floor costs nothing. If it is low, the floor is the difference between a fundable cap table and a broken one. There is no scenario in which the floor harms the company.
@@ -82,7 +99,7 @@ What this achieves:
 
 Open decisions to settle at ratification:
 
-1. **Calibration.** With the reserve absorbing the option-pool requirement, a 60% founder class becomes ~48% after a standard ~20% seed round — clear of every red-flag floor, but below the 56% post-seed median. Shifting to 65% founder class / 25% employees / 10% reserve yields ~52% post-round, matching the median trajectory. Decide which posture we want.
+1. **Calibration within the 55–65% band.** With the reserve absorbing the option-pool requirement: 55% → ~44% post-round, 60% → ~48%, 65% → ~52% (the median look). All three are viable; lower positions trade fundraising margin for team generosity or reserve depth. If the class is set at 55%, route the freed points to the reserve (making it 20%) rather than the employee pool. Decide the posture as a team, on these numbers.
 2. **The fifth partner's slot.** Does the incoming equal partner receive his own 5% base (making the base 25%), a share of the cofounder pool only, or both? Any answer works if written; an unwritten answer is a future dispute.
 3. **Run the backfill regardless.** The class split no longer depends on it, but the split *within* each pool still does — and the employees should see their projected numbers before signing, for the same procedural-fairness reasons the plan itself cites.
 
